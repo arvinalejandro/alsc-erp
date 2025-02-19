@@ -1,0 +1,49 @@
+    <tr>
+        <td align="center">
+            <div class="details">
+            {project_acronym} -{project_site_name}
+            </div>
+        </td>    
+        <td align="center">
+            <div class="details">
+                {project_site_block_name}
+            </div>
+        </td>
+        <td align="center">
+            <div class="details">
+            {lot_name}
+            </div>
+        </td>
+        <td align="">                             
+            <div class="details">
+            {address} 
+            </div>
+        </td>
+        <td align="">                             
+            <div class="details">
+            {lot_area} 
+            </div>
+        </td>
+        <td align="">                             
+            <div class="details">        
+            P {lot_price} 
+            </div>
+        </td>
+        <td align="">                             
+            <div class="details">        
+            P {lot_lcp}
+            </div>
+        </td>
+        <td align="center">                             
+            <div class="details">        
+            {option_unit_name}
+            </div>
+        </td>
+
+        <td align="center">                             
+            <div class="details {option_availability_color}">
+            {option_availability_name}
+            </div>
+        </td>	
+        <td align="center"><a class="link_button_inline green {sold}" onclick="get_profile({lot_id})">Set Client</a></td>		                            
+    </tr>
