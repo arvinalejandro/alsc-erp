@@ -1,0 +1,21 @@
+#---------------------------------------------------------------------[URL defaults]
+
+# Query String Base
+define('INDEX_CONTROLLER', 				'controller', true);
+define('INDEX_METHOD', 					'application', true);
+	
+# Default Controller
+define('DF_CONTROLLER', 				'page', true);
+define('DF_METHOD', 					'index', true);
+
+#---------------------------------------------------------------------[SITE]
+define('SITE_TITLE', 					'Administrator', true);
+define('SITE_SALT', 					'phoenix', true);
+
+#---------------------------------------------------------------------[GLOBAL]
+
+	# SQL 
+	define('SQL_ERROR_REPORTING', 			'dump', true); # dump | email | '' empty will do nothing
+
+	# Email Mode
+	define('EMAIL_MODE', 					'', true); # live | dump | '' empty will do nothing

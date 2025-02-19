@@ -1,0 +1,10 @@
+alter table `alsc`.`client_account_agent` add column `option_entry_type_id` varchar(15) DEFAULT 'single' NULL after `commission_id`;
+create table `alsc`.`client_account_agent_consolidate`( `client_account_agent_consolidate_id` bigint(15) UNSIGNED NOT NULL AUTO_INCREMENT , `group_client_account_agent_id` bigint(15) , `client_account_agent_id` bigint(15) , PRIMARY KEY (`client_account_agent_consolidate_id`))  ;
+create table `alsc`.`option_entry_type`( `option_entry_type_id` varchar(25) NOT NULL , `option_entry_type_name` varchar(25) , PRIMARY KEY (`option_entry_type_id`))  ;
+alter table `alsc`.`client_account_agent` add column `approve_date` bigint(15) UNSIGNED NULL after `is_approved`,change `is_approved` `is_approved` tinyint(1) UNSIGNED default '0' NULL ;
+insert into `option_entry_type`(`option_entry_type_id`,`option_entry_type_name`) values ( 'single','Single');
+insert into `option_entry_type`(`option_entry_type_id`,`option_entry_type_name`) values ( 'consolidated','Consolidated');
+insert into `option_entry_type`(`option_entry_type_id`,`option_entry_type_name`) values ( 'group','Group');
+
+
+

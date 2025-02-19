@@ -1,0 +1,79 @@
+1. Sales Agent
+	- 	DB table
+	- 	Segment Form
+	-	Profile / Remarks / Actions : functional
+	
+	
+	DB Tables : 
+
+		sales_agent
+			- 	id
+			-	sales_agent_position_id
+			-	sales_agent_position_old_id
+			-	sales_network_division_id
+
+		sales_agent_position
+
+		sales_agent_position_old
+	
+2.	Network Manager
+	
+	-	DB table
+	-	Standardize profile same with Agent
+	-	Add division subpage
+	
+	
+		Profile :
+		
+			EX: 
+			Summary number of lot
+			Unsold lot
+			
+	
+	DB TAbles
+	
+		sales_network
+		-	id
+		-	sales_agent_id
+	
+		
+		
+3. Division
+	
+	- DB table
+	- Profile
+	- Agents
+
+	
+	DB TAbles
+	
+		sales_network_division
+			-	id
+			-	sales_network_id
+			-	sales_agent_id
+	
+	
+	
+4. Sales Manager
+
+	sales_agent_agent
+	
+	- 	id
+	-	sales_agent_id
+	-	sales_agent_id_head
+	
+	
+	
+	
+5. Call Raymond
+
+	-	discuss commission of executives (old/new)
+	-	1 network 1 avp? 1 division 1 manager?
+	-   new scheme special cases:
+	    
+	      VP - if sole seller? (direct commission, heirarchy commission)
+	      SD 
+	      SM   
+	      MP
+	      PSMI 9%
+	      

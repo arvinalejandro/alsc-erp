@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------------------------[03.18.2014]
+alter table `jobcentral_system`.`applicant` drop column `applicant_feature_count`;
+alter table `jobcentral_system`.`applicant` add column `applicant_feature_timestamp` bigint(15) UNSIGNED NULL after `applicant_preference_switch`;
+-------------------------------------------------------------------------------------------------[03.18.2014]
+alter table `jobcentral_system`.`applicant` change `applicant_feature_timestamp` `applicant_feature_timestamp` bigint(15) UNSIGNED NOT NULL;
+
+alter table `jobcentral_system`.`employer` add column `employer_featured_logo` varchar(100) NULL after `employer_featured`;

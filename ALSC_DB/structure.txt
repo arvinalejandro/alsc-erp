@@ -1,0 +1,264 @@
+1. Sales Agent
+	- 	DB table
+	- 	Segment Form
+	-	Profile / Remarks / Actions : functional
+	
+	
+	DB Tables : 
+
+		sales_agent
+			- 	id
+			-	sales_agent_position_id
+			-	sales_agent_position_old_id
+			-	sales_network_division_id
+
+		sales_agent_position
+
+		sales_agent_position_old
+	
+2.	Network Manager
+	
+	-	DB table
+	-	Standardize profile same with Agent
+	-	Add division subpage
+	
+	
+		Profile :
+		
+			EX: 
+			Summary number of lot
+			Unsold lot
+			
+	
+	DB TAbles
+	
+		sales_network
+		-	id
+		-	sales_agent_id
+	
+		
+		
+3. Division
+	
+	- DB table
+	- Profile
+	- Agents
+
+	
+	DB TAbles
+	
+		sales_network_division
+			-	id
+			-	sales_network_id
+			-	sales_agent_id
+	
+	
+	
+4. Sales Manager
+
+	sales_agent_agent
+	
+	- 	id
+	-	sales_agent_id1. Sales Agent
+	- 	DB table
+	- 	Segment Form
+	-	Profile / Remarks / Actions : functional
+	
+	
+	DB Tables : 
+
+		sales_agent
+			- 	id
+			-	sales_agent_position_id
+			-	sales_agent_position_old_id
+			-	sales_network_division_id
+
+		sales_agent_position
+
+		sales_agent_position_old
+	
+2.	Network Manager
+	
+	-	DB table
+	-	Standardize profile same with Agent
+	-	Add division subpage
+	
+	
+		Profile :
+		
+			EX: 
+			Summary number of lot
+			Unsold lot
+			
+	
+	DB TAbles
+	
+		sales_network
+		-	id
+		-	sales_agent_id
+	
+		
+		
+3. Division
+	
+	- DB table
+	- Profile
+	- Agents
+
+	
+	DB TAbles
+	
+		sales_network_division
+			-	id
+			-	sales_network_id
+			-	sales_agent_id
+	
+	
+	
+4. Sales Manager
+
+	sales_agent_agent
+	
+	- 	id
+	-	sales_agent_id
+	-	sales_agent_id_head
+	
+	
+	
+	
+5. Call Raymond
+
+	-	discuss commission of executives (old/new)
+	-	1 network 1 avp? 1 division 1 manager?
+	-   new scheme special cases:
+	    
+	      VP - if sole seller? (direct commission, heirarchy commission)
+	      SD 
+	      SM   
+	      MP
+	      PSMI 9%
+	      
+	-	sales_agent_id_head
+	
+	
+	
+	
+5. Call Raymond
+
+	-	discuss commission of executives (old/new)
+	-	1 network 1 avp? 1 division 1 manager?
+	
+	
+	
+	
+-------------------------------------------------------------------
+
+
+1. Group 	- 	Old Scheme
+2. Group	-	New Scheme
+3. Indicate in heading the page name
+4. Complete and fill in all the summary in rows
+
+
+
+Trigger
+	
+	Old Scheme
+
+		AVP
+		SM
+		MA
+		Broker
+
+	New Scheme
+	
+		Vp Sales
+		Sales Director
+		Sales Manager
+		Marketing Professional
+		
+		
+		
+
+option_commission_version
+
+	- id (old/new)	
+	-	sales_agent_id_seller
+	-	old_sales_agent_id_avp
+	-	old_sales_agent_id_sm
+	-	old_sales_agent_id_ma
+	-	old_sales_agent_id_broker
+	-	sales_agent_id_vp
+	-	sales_agent_id_sd
+	-	sales_agent_id_sm
+	-	sales_agent_id_mp
+	-	sales_agent_id_broker
+	
+	
+sales_commission_scheme
+
+	-	id		(Old Scheme - MA AVP)	
+	-	sales_commission_scheme_key (ma_avp)			
+	-	option_commission_version_id	
+	-	old_sales_commission_scheme_value_avp (3%)	
+	-	old_sales_commission_scheme_value_sm (0%)	
+	-	old_sales_commission_scheme_value_ma (3%)
+	-	old_sales_commission_scheme_value_broker (0)
+	-	sales_commission_scheme_value_vp (0)
+	-	sales_commission_scheme_value_sd (0)
+	-	sales_commission_scheme_value_sm (0)
+	-	sales_commission_scheme_value_ma (0)
+	-	sales_commission_scheme_value_broker (0)
+	
+sales_commission_scheme_trigger
+
+	-	id
+	-	sales_commission_scheme_id
+	-	sales_commission_scheme_trigger_value (10%)
+	-	sales_commission_scheme_trigger_release (20%)	
+
+
+
+
+sales_commission_account
+
+	-	id
+	-	account_id
+	-	sales_commission_scheme_id
+	-	sales_commission_account_amount_total (Total aggregated percentage)	
+	-	old_sales_agent_id_avp
+	-	old_sales_agent_id_sm
+	-	old_sales_agent_id_ma
+	-	old_sales_agent_id_broker
+	-	sales_agent_id_vp
+	-	sales_agent_id_sd
+	-	sales_agent_id_sm
+	-	sales_agent_id_mp
+	-	sales_agent_id_broker
+	-	old_sales_commission_account_amount_avp
+	-	old_sales_commission_account_amount_sm
+	-	old_sales_commission_account_amount_ma
+	-	old_sales_commission_account_amount_broker
+	-	sales_commission_account_amount_vp
+	-	sales_commission_account_amount_sd
+	-	sales_commission_account_amount_sm
+	-	sales_commission_account_amount_mp
+	-	sales_commission_account_amount_broker
+	
+
+sales_agent_lot
+
+	-	id
+	-	lot_id
+	-	sales_agent_id
+	-	sales_commission_scheme_id
+	-	status (active/inactive)
+	
+	
+	
+
+
+
+		
+		
+		
