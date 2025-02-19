@@ -1,0 +1,1037 @@
+
+Templates
+
+    1. Print Preview
+        - Receipt / Bill Invoice
+    2. Wrong doc declaration of html5           -- completed
+    3. Create section for Search                -- completed
+    4. Make left White                          -- would not like to make it white so right side will stand out. made it light gray instead.       
+    5. AsianLand Logo Placement                 -- completed. placed beside the user's name (ALSC employee)
+    6. Sitemap of static pages                  -- completed
+    7. Dropdown - new row below                 -- completed
+    8. Left navigation link grouping/labeling   -- completed
+    9. Dropdown selection label
+
+Controllers
+    Bills
+    Collection
+    Disbursement
+    Commission
+    Deposit
+    
+Invoice List
+
+    Checkbox
+    Status
+    Invoice ID
+    Invoice Type
+    Client ID
+    Client Name
+    Due Date
+    
+Questions
+
+    Interest for late payment rules
+    Kulang ang bayad ng due/installment
+        1. Allowed?
+            - if naka bayad na and kulang? procedures            
+        2. Not allowed?
+        3. Bounced Check
+        4. Auto generate invoice number?
+            - do you have a standard issuance of invoice number?
+            3. Amount Due
+            
+            
+
+Bills Payment
+
+    Dashboard
+        
+        Graph
+        
+            a. Pie chart for the day : Total = dues + collected
+            b. Weekly graph : daily invoice received
+            
+        
+        New invoice
+                
+            a. Received From
+            b. Invoice Label
+            c. Invoice Category
+            d. Invoice type
+            e. Amount
+            f. Remarks/Notes
+            
+            
+Milestone
+    
+    1. Cashier
+    2. WES Billing System
+    3. Billing 
+    4. ALSC Applications Administration System
+    5. Client Management System
+    6. Accounting System    
+    
+Milestone 2
+
+    1. Disbursement
+    2. Expense Management System
+    3. Server Setup
+    4. Data Migration
+    
+Final Delivery
+
+    1. Payroll
+    2. Documentation
+    3. Training    
+    
+
+To Do
+
+    - Daily Schedule
+    - Document discussion
+    - Project Breakdown
+    - Milestone Setup
+    
+            
+
+Client Management System
+        
+    Preliminary Analysis
+    
+        
+        Work-flow Requirements
+            - Their existing business flow for this matter
+            - Define the steps needed
+            - Existing Documents in use (document names/ which documents is mandatory to have a hard copy)
+            - Terminologies                
+        Functional Requirements                        
+            - End user types
+            - End users needs (daily/usual routine) of each user types        
+        
+                            
+    System Anaylsis    
+        
+        Requirement Evaluation
+            - Evaluate functional and work-flow requirement
+            - Define the necessary functions/modules in symetry with the requirements
+            
+        Development Scope
+            - Define all the page/parts/sections
+            - Define all the modules (mvc)
+        
+    Project Design
+    
+        UI Design
+            -    Layout wireframes
+            -    Layout interaction / Logical flow in accordance to the workflows
+        
+        DB Design
+            -    Design the DB architecture
+            -    Identify all the schemas and indexes
+    
+    
+    Project Implementation
+    
+        UIX Development
+            - Develop the page layout (on/off states)
+            - Develop the page/section flows and workflow
+        
+        System Integration        
+            Model
+                - Develop schema models per table                
+            View
+                - Static Page integration
+                - UX development
+            Controller
+                - Page Controller development
+            
+    Project Release/Maintenance
+    
+        Quality Testing
+            - Application testing internally
+            - Application Testing with the client
+            
+        Quality testing Evaluation
+            - Make the necessary changes/fixes
+        
+        Project Release
+            
+
+
+
+Client Management System
+
+    Project Planning
+
+        
+
+Cashier
+Billing Management System
+Site Administration
+WES Billing System
+
+
+
+Billing Type
+
+
+- Miscelenious.clubhouse relationship with inventory (site/subdivision)
+
+
+
+
+To Do Before Sleep: 
+
+1. Self Translation document
+2. Implement payment sectioning
+3. Provision db for site admin
+
+
+EDP CMS
+
+    -    USER Management
+    -    System Variables
+    
+EDP Site
+
+    -
+    
+Add/Modify User
+    
+    - View Logs
+    - Add Reports
+    - Add Modules
+    
+View Modules
+
+    - View Logs
+    - Add User
+    
+System Variables
+    
+                             
+
+
+1 day = 86400
+
+1. House-lot work-flow
+2. CLient Manager
+
+Project sub milestone
+
+    - system logs implementation
+    
+Workflow for reversion house-lot package.
+
+
+
+
+Client Account                    -    client_account_id
+Transaction Type                 -    option_transaction_type_id
+User                            -    user_id
+Account Type                    -    option_account_type_id
+Account Status                    -    option_account_status_id
+Buyer Type                        -    option_buyer_type_id
+Client ID                        -    client_id
+Account Number                    -    client_account_number
+Date of sale                    -    client_account_date_sale
+Percent Discount                -    client_account_discount
+Discounted Amount                -    client_account_discount_amount
+Net LCP                            -    client_account_lcp
+House Contract Price            -    client_account_hcp
+Soil Poisoning                    -    client_account_soil_poison
+Additional Cost                    -    client_account_added_cost
+Cost Description                -    client_account_added_cost_desc
+Net TCP                            -    client_account_tcp_net
+Reservation                        -    client_account_reservation_paid
+Reservation Date                -    client_account_reservation_date
+Reservation paid                -    client_account_reservation_receipt
+Misc Fee                        -    client_account_misc_fee
+% Down Payment                    -    client_account_dp_percent
+Down Payment Amount                -    client_account_dp_amount
+Net DP                            -    client_account_dp_net    
+Total DP                        -    client_account_dp_total    
+DP paid                            -    client_account_dp_paid
+DP paid    date                    -    client_account_dp_paid_date
+DP paid    date                    -    client_account_dp_paid_receipt
+DP type                            -    option_account_p1_id
+DP Due date                        -    option_account_dp_due_date
+DP terms                        -    option_account_dp_term
+DP partial                        -    option_account_dp_monthly
+M.A type                        -    option_account_p2_id
+M.A Terms                        -    client_account_ma_term
+M.A Due                            -    client_account_ma_due_date
+M.A Interest                    -    client_account_ma_interest
+M.A Fixed Factor                -    client_account_ma_factor
+M.A Monthly                        -    client_account_ma_monthly
+Marketing Network                -    network_id
+Marketing Network Division        -    network_division_id
+Agent ID                        -    agent_id
+Conforme                        -    client_account_conforme
+Timestamp                        -    client_account_timestamp
+
+
+
+Must update lot to occupied/sold
+
+
+What's the use of cycle if earnest/reserve can override?
+Rebate Scope
+Is changing of due date/ special case of paying all downpayment etc part of restructure? discuss all the restructure procedure so we can logically organize/group this functions
+Account status of account? why is there reservation if will only create once with csr. should reservation be in the lot ? 
+Which part/details of client can only be edited
+Account type - local/abroad (per account or client)
+Changing of status prodedure? manual or automated?
+is date of ma start linear to ma terms? 
+Earnest/Agent of additional accounts?
+is remarks for client as a whole? or per account?
+un-own lot from client
+
+Billing
+
+- Bounced Checked
+- Payment status
+- Payment verification
+
+Investment Type
+    - House Code / Unit type
+    - None-house like refurbish, fence etc?
+
+
+
+
+Reserved     -     already paid for reservation / with CSR yet
+Sold         -    after full payment of reservation
+Earnest        -    during dp / no CSR issuance (minimum P1000)
+On-Hold        -    Agent Ownership
+
+
+price adjustment - batch price adjustment per project site / phase  - remarks
+- undo automateed city/province UI/UX calendar 
+- remove "Down Payment Date Paid" and "Down Payment Amount Paid" (client manager > account profile) 
+terms (put "in months") 
+round Monthly Payment 
+house model for all Projects remove "house model code" (Inventory > house model) 
+remove "conforme" (client manager > account profile) 
+surcharge - for chosen clients only (#9 of mom71014) 
+System Variables (on-hold, earnest, reservation) ex: on-hold: how many days per agent earnest: minimum payment? 
+Price History - put the initial price
+
+
+http://alsc/edp_inventory/edp_inventory_lot/marketing/&id=142 - implement department hold (no limit)
+
+Upload ALSC CRM to server    -     Give access to team. Password will be changed every day.
+Price Adjustment            -    Add remarks and undo feature
+Inventory                    -    Add drop down of all model houses for each project
+Surcharge Module            -    Confirmed that this module is not included due to cancellation of condonation memo.
+                            -    Waiver of surcharge is now based on the request of client.
+Lot                            -    Add history of previous client of each account and the information needed.
+House                        -    House model that applies to all
+                            -    Inlcude Fence as house inventory
+Remarks in Hold Lot         -    Create a remark subject (hold, price, edit etc.)
+
+
+
+
+
+EDP Client
+[]Earnest history - cashier
+[]Reservation history - cashier
+[]Account Computation relative to account status and payment type
+[]client/account history
+[]create account separate forms for
+ - package
+ - house only
+ - lot only
+ - others 
+[] separate profile page for
+  - package
+ - house only
+ - lot only
+ - others
+
+[]EDP Restructure
+[]EDP Change Due Date
+[]EDP CHange Details
+[]EDP change sub client
+[]EDP/Billing Retention
+[]Ejectment
+
+Finance Billing
+[]Retention Manager
+[]Retention Workflow
+
+Cashier
+
+[]Payment Others
+[]Payment Floating
+[]Advance payment implementation
+[]Payment Reversal/Acknowledgement/Provisionary Receipt
+[]Daily Report
+
+
+ Case of
+ - ejectment of an account from an existing client with other lot that are paid.
+ 
+spot cash - cash
+deferred cash payment - divided equally for 30months
+
+
+payment Method - any, should we issue a receipt?
+allow multiple payment that is less than the total?  : yes
+floating payment account
+
+10k + 10K + 10K = 1 receipt
+if payment is 28k
+
+
+
+To Raymond
+    1. Item Type List
+    2. Acknowledgement receipt
+    3. Floating Payment : no need to create dummy account. (untagged receipts)
+    4. Other project location/other project
+    5. Implement waiting credit/patago
+    6. PR Deferred (Agent). pending before officially stored
+    7. Provisionary Receipt is 100% / PR is named to the customer
+    8. TAB for PRed payment. ability to approve/refund payment
+    
+    
+    4200 Due    
+    4000 Principal
+    200  Interest
+    
+    
+    Excess
+    
+    Advance payment optisns
+    Credit To Principal
+    Prompt For each record (Scattered)
+    
+    
+    
+    Outstanding Principal Balance       =   (Principal * N) + (Interest * N) ;    
+    Outstanding Principal Balance       =   Outstanding Principal Balance - Excess;
+    
+    Default excess payment - debit to next month
+    
+    Include Rebate Field
+    
+    100  Surcharge
+    
+
+    Printing of PR/OR
+      
+      
+      
+Bullet Proofing Notes
+
+- Account status : Full Downpayment redundant. Should only be MA since at MA, understood that dp is fully paid
+      
+            
+    
+    
+392,832     =  Amount To be financed
+3,273.6        =  No interest
+
+6,828        
+
+
+Rebate date for 
+
+
+TO DO :
+
+
+1. Payment Module
+2. Finalize Recurring Payment
+3. Finalize Other Payment
+4. Finalize Floating Payment 
+5. Finalize Reservation/Earnest Payment
+6. Provisionary Receipt Manager
+7. Statement of Account
+8. Daily Report Generator | CAR | PR | OR
+7. Retention Manager
+9. Account Restructuring
+10. Account Change Name | Details
+11. Account Change Date
+
+
+
+12. Remarks Placement 
+13. Finalize Client Manager
+
+
+
+delete from account_receive;
+delete from account_receive_invoice;
+update client_account_invoice set 
+    option_invoice_status_id = 0, 
+    client_account_invoice_surcharge_amount = 0,
+    client_account_invoice_surcharge_discount = 0, 
+    client_account_invoice_surcharge_previous_amount = 0, 
+    client_account_invoice_date_update = 0, 
+    client_account_invoice_is_late = 0;
+
+update client_account_invoice set 
+    client_account_invoice_date_due_limit = client_account_invoice_date_due + 86400, 
+    client_account_invoice_date_rebate_limit = client_account_invoice_date_due - 259200; 
+
+select * from client_account_invoice where 
+
+
+1. Existing surcharge amount. For surcharge multiplier, will the existing accumulated amount be affected?
+
+2. Retention
+
+    - Since M.A is on hold, it's also charging the late surcharge. this is separate from the retention interest?
+    
+3. Rebate
+
+    - Will only be credited once the entire due is fully-paid 
+    
+    
+9/29/2014
+
+1. Will credit to principal be allowed if the next due is overdue?
+2. Credit to principal valid for dues with interest. applies to retention?
+3. Need to know the item type of credit to principal
+
+
+9/29/2014
+
+
+
+- Tax Calculation          - raymond to follow
+- Credit to principal
+- Billing 					- due list : column for latest demand letter/overdue related letters | last payment column date 
+- Overdue Summary Cashier
+
+Last Stop:
+
+	public function insert_ma_partial($client_account) # for restructure given the remaining balance
+	
+	
+
+EDP Client
+
+[]Tax bracketing
+[]Earnest history - cashier
+[]Reservation history - cashier
+[]Account Computation relative to account status and payment type
+[]client/account history
+[]create account separate forms for
+ - package
+ - house only
+ - lot only
+ - others 
+[] separate profile page for
+  - package
+ - house only
+ - lot only
+ - others
+
+[]EDP Restructure
+[]EDP Change Due Date
+[]EDP CHange Details
+[]EDP change sub client
+[]EDP/Billing Retention
+[]Ejectment
+
+Finance Billing
+
+[]Retention Manager
+[]Retention Workflow
+
+Cashier
+
+[]Payment Others
+[]Payment Floating
+[]Advance payment implementation
+[]Payment Reversal/Acknowledgement/Provisionary Receipt
+[]Daily Report
+[]Statement of account
+[]Print Receipt
+
+Module 	: Edp - CMS
+Tab		: Manage Users
+URL		: http://alsc.jobcentral.com.ph/edp_cms/edp_cms_user/profile/&id=7
+Status	: Passed / Bug / Modify
+Remarks	: Page is okay | this page has a problem. (explain the problem) | Additional columns/modify (explain modification)
+
+
+
+
+Net =   (Gross) - (Gross * .12)
+Vat =    Gross * .12 
+
+
+Net =   (0.10714) (Gross);
+
+
+                 12 %       = .10714
+                 
+        
+        
+        
+(Vat Amount / Vatable Sales )   * 100     
+                 
+                 
+****************************************    
+-filtering for Client Mgt System
+****************************************       
+                 
+                 
+                 
+
+
+Vat Amount      =   100 * .10714
+                =   10.714
+                
+                =   100 - (.12 * 100)
+                =   88.00
+                
+Vatable Sales   =   100 - 10.714
+                =   89.286
+                
+Vat Amount      =   89.286 * .12
+                
+
+                
+                
+                
+                (
+    [client_account_id] => 24
+    [client_account_type] => Lot Only
+    [option_transaction_type_id] => 1
+    [user_id] => 7
+    [option_account_type_id] => 2
+    [option_account_status_id] => 1
+    [option_buyer_type_id] => 1
+    [client_id] => 26
+    [client_account_number] => 101-001-001-101
+    [lot_id] => 185
+    [client_account_date_sale] => 1411833600
+    [client_account_discount] => 7.00
+    [client_account_discount_amount] => 63896.00
+    [client_account_lcp] => 912800.00
+    [client_account_lcp_net] => 848904.00
+    [client_account_hcp] => 0.00
+    [client_account_soil_poison] => 0.00
+    [client_account_added_cost] => 0.00
+    [client_account_added_cost_desc] => 
+    [client_account_tcp_net] => 848904.00
+    [client_account_reservation_paid] => 10000.00
+    [client_account_reservation_date] => 1412179200
+    [client_account_reservation_receipt] => 159357
+    [client_account_misc_fee] => 0.00
+    [client_account_dp_percent] => 20.00
+    [client_account_dp_amount] => 169780.80
+    [client_account_dp_net] => 159780.80
+    [client_account_dp_total] => 
+    [client_account_dp_paid] => 0.00
+    [client_account_dp_paid_date] => 0
+    [client_account_dp_paid_receipt] => 
+    [option_account_p1_id] => 1
+    [client_account_dp_due_date] => 1415721600
+    [client_account_dp_term] => 30
+    [client_account_dp_monthly] => 5326.03
+    [option_account_p2_id] => 1
+    [client_account_ma_amount] => 679123.20
+    [client_account_ma_term] => 120
+    [client_account_ma_due_date] => 1399824000
+    [client_account_ma_interest] => 17.00
+    [client_account_ma_factor] => 0.01737977
+    [client_account_ma_monthly] => 11804.00
+    [client_account_ma_rebate] => 0.00
+    [network_id] => 0
+    [network_division_id] => 0
+    [agent_id] => 
+    [client_account_conforme] => 
+    [client_account_overdue_date] => 1414140909
+    [client_account_focus_overdue_date] => 1414339200
+    [client_account_focus_overdue] => 1
+    [client_account_date_transaction] => 
+    [client_account_timestamp] => 1412303894
+    [option_transaction_type_name] => Regular
+    [option_user_status_id] => 1
+    [option_department_id] => 5
+    [user_number] => 0152123
+    [user_name] => Annielle
+    [user_surname] => Madrid
+    [user_email] => Bulacan
+    [user_contact] => 12345
+    [user_address] => abcd efg
+    [user_username] => annille.madrid
+    [user_password] => password
+    [user_timestamp] => 1403927441
+    [user_deleted] => 0
+    [option_account_type_name] => International
+    [option_account_status_name] => Partial Downpayment
+    [option_buyer_type_name] => Client
+    [client_name] => Tony
+    [client_surname] => Stark
+    [client_middle_name] => Avenger
+    [client_address] => 
+    [client_address_abroad] => America
+    [option_client_address_id] => 2
+    [client_city] => 
+    [client_zip] => 
+    [client_telephone] => 
+    [client_mobile] => 
+    [client_email] => tony_stark@gmail.com
+    [client_birthday] => 447436800
+    [option_gender_id] => 1
+    [client_birth_place] => America
+    [option_employment_id] => 3
+    [option_civil_status_id] => 2
+    [client_tin] => 
+    [client_sss] => 
+    [client_timestamp] => 1412303894
+    [option_account_p1_name] => Partial Down Payment
+    [option_account_p2_name] => Monthly Amortization
+    [network_name] => 
+    [network_division_name] => 
+    [agent_name] => 
+    [agent_sequence] => 
+    [agent_sequence_status] => 
+    [agent_sequence_timestamp] => 
+    [agent_timestamp] => 
+    [project_id] => 5
+    [project_site_id] => 50
+    [project_site_block_id] => 73
+    [option_unit_id] => 0
+    [option_availability_id] => 2
+    [option_construction_id] => 0
+    [option_unit_status_id] => 0
+    [house_id] => 
+    [lot_name] => 1
+    [lot_area] => 163.00
+    [lot_price] => 5600.00
+    [lot_timestamp] => 1412295695
+    [option_house_classification_id] => 
+    [house_name] => 
+    [house_code] => 
+    [house_acronym] => 
+    [house_area] => 
+    [house_price] => 
+    [house_timestamp] => 
+    [option_house_classification_name] => 
+    [option_project_status_id] => 1
+    [project_code] => 190
+    [project_name] => Royale Estate
+    [project_acronym] => RE
+    [project_address] => 
+    [project_province] => 
+    [project_timestamp] => 1412295590
+    [project_site_name] => 1
+    [project_site_code] => 101
+    [project_site_timestamp] => 1412295695
+    [project_site_block_name] => 1
+    [project_site_block_timestamp] => 1412295695
+    [side_nav] => <div id="side_nav" style="width:180px;"> 
+    <ul style="height:500px;"> <!--set height dynamic -->
+         <li>
+            <a href="/edp_client/edp_client_manage/profile/&id=26">
+                <span class="icon" id="edp_profile"></span>
+                <span class="label {profile.class}">Profile</span>                
+            </a>            
+        </li>     
+        
+        <li>
+            <a href="/edp_client/edp_client_manage/account/&id=26">
+                <span class="icon" id="edp_accounts"></span>
+                <span class="label bold">Accounts</span>                
+            </a>            
+        </li>
+        
+                                                                       
+        <!--<li>
+            <a href="#">
+                <span class="icon one"></span>
+                <span class="label {remark.class}">Remarks</span>                
+            </a>            
+        </li>-->
+        
+                                                
+		
+        <li class="{hidden}">
+            <a  class="group">
+                Actions
+            </a>             
+             <a href="/edp_client/edp_client_manage/account_profile/&id=24&client_id=26">
+                <span class="icon" id="edp_account_profile"></span>
+                <span class="label color_red">Account Profile</span>
+            </a>  
+            <a href="/edp_client/edp_client_manage/account_invoice/&id=24&client_id=26">
+                <span class="icon" id="edp_amortization"></span>
+                <span class="label color_red">Amortization</span>
+            </a>           
+        </li>
+        
+            
+    </ul>
+    
+    <div class="align_center display_block" id="side_footer">
+        
+    </div>
+</div>   
+    [header.navigation] => <ul id="main_navi">            
+    <li>
+        <a href="/edp_client" >
+            <span class="icon" id="edp_house_lot_inventory"></span>
+            <span>House and Lot Inventory</span>
+            
+        </a>
+        <div id="nav_drop" class="display_none">
+            <a>Option One afasdfa sdf</a>
+            <a>Option Two</a>
+            <a>Option Three</a>
+            <a>Option Four</a>
+            <a>Option Five</a>
+        </div>
+    </li>
+    <li>
+        <a href="/edp_client/edp_client_manage" class="active">
+            <span class="icon" id="edp_client_manager"></span>
+            <span>Client Manager</span>
+            <i></i>
+        </a>
+    </li>                      
+</ul>
+    [emblem] => <a href="#" class="icon">
+	<span class="edp" id="client"></span>
+</a>
+    [_user_] => Array
+        (
+            [user_id] => 7
+            [option_user_status_id] => 1
+            [option_department_id] => 
+            [user_number] => 0152123
+            [user_name] => Annielle
+            [user_surname] => Madrid
+            [user_email] => Bulacan
+            [user_contact] => 12345
+            [user_address] => abcd efg
+            [user_username] => annille.madrid
+            [user_password] => password
+            [user_timestamp] => 1403927441
+            [user_deleted] => 0
+            [option_user_status_name] => Active
+            [option_department_name] => 
+        )
+
+    [header_title] => EDP - Client Management System
+    
+    
+    
+username:  alscdlsmzl
+password:   passedp
+A skilled communicator; able to synthesize and deliver complex information to diverse audiences.
+raymond caluag
+1:55 PM
+sir Arnie, nag clear lang po kami sa Billing about retention, before daw po ang house only din po nireretention, kaya sa database po namin may mga house only account na nakaset sa retention, ngaun po kapag may add house yung location yung lot only lang po ang nireretention yung add house po nirerequire na isettled in full, pero may mga case po na nagpapa approved yung client na ifully paid yung lot only nila and kapag nag add house po sila yung house only account po yung nireretention.
+me
+2:26 PM
+alright. panu pag packaged?
+raymond caluag
+2:29 PM
+buo po siyang nireretention sir
+me
+2:34 PM
+so, sir ganito
+pag may existing Lot only account, and mag a-add ng House Only, eto yung cases. 
+
+1. Lot Only - Subject for retention. House only need to be fully paid.
+
+2. Lot Only - Fully pay yung lot only account. tapos house only account yung for retention?
+
+
+-----------------------------------------------
+Cashier
+
+1. Surcharge Algorithm / Surcharge discount
+2. Statement of account values
+3. Payment History (SOA)
+4. Payment Others without client
+5. Cheque status manager
+6. Cash acknowledgment Window
+7. Daily Reports
+
+
+Client Manager
+
+1. Add house only account
+2. Add other account
+3. Buy another lot
+4. Account Restructure
+5. Change Name 
+6. Client History per lot
+6. Account Transfer
+7. Add sub client name
+8. Taxation workflow
+9. Spread miscellaneous/staggard
+10. separate outstanding balance / total outstanding balance
+11. Discount for HCP
+12. Retention
+
+Billing
+
+1. Letter sending status / Report
+
+
+
+Orgranize Client_account_invoice
+
+
+1. Client Profile
+2. Client Account
+	- disable earnest pay
+	- disable taxable
+	- disable reservation
+	
+** To do : create client, account, account_structure
+
+ALTER TABLE option_unit_account_type COMMENT = "client_account.option_unit_account_type : the type of unit bought under this accout. i.e fence, lot only, house only, package";
+
+
+truncate table `client`;
+truncate table client_member;
+truncate table client_account;
+truncate table client_account_structure;
+truncate table client_account_invoice;
+update lot set option_availability_id = 'available';
+
+
+> Next - submit / create account. misc scattered is functional.
+
+
+PRoperty Code
+
+project
+project_site
+project_site_block
+lot
+
+
+client_account_agent : Proposed table name
+client_account_agent.client_account_id
+client_account_agent.agent_id
+client_account_agent.user_id
+client_account_agent.client_account_agent_commission_percent
+client_account_agent.client_account_agent_commission_amount  = (client_account.client_account_tcp_net * client_account_agent_commission_percent)
+client_account_agent.client_account_agent_status_id = option_account_agent_status
+client_account_agent.client_account_agent_timestamp 
+
+
+
+
+select 
+	*,
+	(select count(*) from documents where account_id = account_id and document_type IN ('title', 'tax_clearance', 'rcta') AND document_status = 1) AS document_count
+
+	
+from client_agent
+
+if($row['document_count'] == 3)
+{
+	$documents = 'complete';
+}
+
+
+client_account.client_account_tcp_net : basis of commission
+model->insert_commission_disbursment($agent_id, $account_id, $percent_commission = 20);
+
+
+
+1. What if check ang bayad. trigger? or wait for clearance?
+
+
+
+
+Per agent, different quota (And grouped quota)
+
+backout % : without refund
+
+Old scheme: will start on down payment (payment terms/10)
+    - Example: 30 months = every 3 months DP payment = 10% commission
+    - (double check old scheme)
+    
+New scheme: 
+10% TCP = 10% commission (RA)
+20% TCP = 10% comm (RA, CTS)
+70% TCP = 50% comm (RA, CTS)
+100% TCP = 30% balance comm
+
+Sales Performance: % accomplishment of quota
+Ask for Sales Performance sample
+
+
+
+TBA - to be accounted (prepaid)
+RFP - advance / exact
+
+backed-out account : upon reservation : 
+
+Reservation
+
+1. CSR
+2. Approval of CSR
+3. EDP-CSR : backedout
+
+Client Create:
+1. OK on manual percent
+
+QUOTA
+1. Per Agent
+2. Manager / Director : collective / aggregate quota
+
+
+Holding 
+
+1. Automatic / Indefinite : auto hold
+
+
+
+Tab Name : Journal Voucher
+
+	- Bank Name
+	- Bank Account Number
+	- Bank Type (Peso/Dollar)
+	- Bank Branch
+	- Bank Swift Code
+	- Balance
+
+
+Bank Profile
+
+	- Profile
+	- Transaction
+	
+	Actions
+	
+		- JV Adjustment
+		
+			Input
+				
+				- Amount
+				- Dropdown (Credit / Debit)
+				- Remarks
+		
+		- Deposit
+		
+			Input
+			
+				- Amount
+				- Depositor
+				- Remarks
+		
+		- Fund Transfer
+		
+			Input
+			
+				- Amount
+				- Dropdown of banks
+				- Remarks
+		
