@@ -1,0 +1,975 @@
+/* ID STYLES by DLSMIZEL 2014 */
+
+#login_body
+{ width:720px; background-color:#eaeaea; margin:5% auto 0 auto; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; -webkit-box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, 0.75); -moz-box-shadow:0px 3px 14px 0px rgba(0, 0, 0, 0.75); box-shadow:0px 3px 14px 0px rgba(0, 0, 0, 0.75); }
+
+    #login_body #page_header
+    { height:120px;  background:linear-gradient( to right, #0060a1 40%, #0078c9 ); color:#00c4df; }
+
+    #login_body #side_nav
+    { height:390px; width:300px; background-color:#282f39; overflow-y:hidden; }
+
+    #login_body #side_nav:hover
+    { overflow-y:auto; }
+
+        #login_body #side_nav ul
+        { list-style:none; margin:0; padding:0; }
+
+        #login_body #side_nav li
+        { margin-bottom:1px; }
+
+            #login_body #side_nav li:last-child
+            { margin-bottom:1px; border-bottom:10px solid #3B414F; }
+
+        #login_body #side_nav a.main_nav
+        { background-color:#3b414f; display:block; color:#ffffff; padding:20px; transition: all 0.2s ease 0s; }
+
+            #login_body #side_nav a.main_nav:hover
+            { background-color:#282f39; text-decoration:none; padding-left:40px; }
+
+            #login_body #side_nav a.main_nav.active
+            { background-color:#22ACDA; padding-left:40px; border-bottom:1px solid #2198C0; }
+
+            #login_body #side_nav a.main_nav span
+            { width:20px; height:20px; margin: 0 20px 0 0; }
+
+                #login_body #side_nav a.main_nav span#icon_site_mgr
+                { border:1px solid black; }
+
+                #login_body #side_nav a.main_nav span#icon_finance
+                { border:1px solid black; }
+
+            /*****************************************
+             sub navigations
+             *****************************************/
+            #login_body #side_nav ul.sub_nav
+            { overflow:hidden; background-color:#2198c0; }
+
+                #login_body #side_nav ul.sub_nav li
+                { border-bottom:1px solid #22ACDA; margin:0; }
+
+                #login_body #side_nav ul.sub_nav li:last-child
+                { border-bottom:0; }
+
+                #login_body #side_nav ul.sub_nav li a
+                { color:#bbeeff; display:block; padding:5px 0 5px 80px; font-size:14px; transition: all 0.2s ease 0s; }
+
+                #login_body #side_nav ul.sub_nav li a:hover
+                { text-decoration:none; background-color:#22ACDA; }
+
+                #login_body #side_nav ul.sub_nav li a:focus
+                { background-color:#22ACDA; color:#ffffff; padding:5px 0 5px 95px !important; }
+
+
+    #login_body #left_container
+    { margin:20px 0 20px 20px; padding:20px; background-color:#ffffff; border:1px solid #cccccc; border-radius:5px; width:398px; float:left; }
+
+    #login_body #right_container
+    { margin:30px 20px 20px 0; width:240px; float:right; }
+
+        #login_body #right_container #login_history
+        { padding:10px; margin-bottom:10px; background-color:#cccccc; border-radius:0 5px 5px 0; }
+
+        #login_body #right_container #help
+        { padding:0 30px 10px 30px; color:#777777; }
+
+            #login_body #right_container #help a.link_button_block.gray
+            { border:1px solid #cccccc !important; }
+
+    #login_body #login_footer
+    { padding:20px 20px; height:20px; background-color:#282f39; color:#919296; }
+
+        #login_body #login_footer a
+        { color:#00c4df; }
+
+
+
+#footer
+{ background-color:#111F27; height:100px; color:#889093; height:4em; }
+
+    #footer .float_right a
+    { float:left; margin-left: 20px; }
+
+    #footer a
+    { color:#0078c9; }
+
+    #footer a:hover
+    { color:#8fd400; }
+
+/********************************
+    end of login page
+********************************/
+
+
+#header
+{ height:58px; background-color:#2D5788; min-width:900px; position:fixed; top:0; border-bottom:#162d47; z-index:500; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; background: -webkit-linear-gradient(top, #4f84af 0%,#2d5788 100%); background: linear-gradient(to bottom, #4f84af 0%,#2d5788 100%); background: -ms-linear-gradient(top, #4f84af 0%,#2d5788 100%); }
+
+    #header a.icon
+    { float:left; margin:4px 10px 0 10px; }
+
+        #header a.icon span
+        { width:30px; height:30px; display:block; }
+
+            #header a.icon span.user#user
+            { background: url(/_application/content/images/icons_user.png) no-repeat scroll 0 0; }
+
+            #header a.icon span.edp#client
+            { background: url(/_application/content/images/icons_edp.png) no-repeat scroll 0 0; }
+
+            #header a.icon span.edp#cms
+            { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -30px 0; }
+
+            #header a.icon span.edp#inventory
+            { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -60px 0; }
+
+
+            #header a.icon span.finance#billing
+            { background: url(/_application/content/images/icons_finance.png) no-repeat scroll 0 0; }
+
+            #header a.icon span.finance#cashier
+            { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -30px 0; }
+
+            #header a.icon span.finance#accounting
+            { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -60px 0; }
+
+            #header a.icon span.finance#disbursement
+            { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -90px 0; }
+
+            #header a.icon span.finance#documentation
+            { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -120px 0; }
+
+
+            #header a.icon span.sales#sales
+            { background: url(/_application/content/images/icons_sales.png) no-repeat scroll 0 0; }
+
+    #header h1 a
+    { font-size:16px; margin-top:7px; font-weight: bold; display:inline-block; color:#ffffff; }
+
+
+    #header div#nav_apps
+    {position:absolute; right:28px; top:52px; border:1px solid #003399; max-height:250px; background-color:white; z-index: 100; overflow-y: scroll;}
+
+        #header div#nav_apps div.app
+        { color:#282f39; padding:10px; text-align:center; vertical-align: middle; float:left; }
+
+            #header div#nav_apps div.app:hover
+            { text-decoration: none; border:1px solid #d1d1d1; padding:9px; cursor:pointer; }
+
+            #header div#nav_apps div.app div.image
+            { border:1px solid black; width:50px; height:50px; display:block; }
+
+
+    #header div#upper_right_nav
+    { margin-right:10px; padding:2px; background-color:#ffffff; border-radius:5px; }
+
+        #header div#upper_right_nav span.user
+        { margin:0 10px 0 5px; padding-top:5px; display:inline-block; }
+
+        #header div#upper_right_nav div.quick_group
+        { padding:5px; display:block; }
+
+            #header div#upper_right_nav div.quick_group div.float_left
+            { margin-right:5px; }
+
+            #header div#upper_right_nav div.quick_group div.float_left:last-child
+            { margin-right:0; }
+
+            #header div#upper_right_nav div.quick_group a.quick_but
+            { background-color:#ffffff; border:1px solid #EAEAEA; padding:5px 10px; color:#919296; margin-right:3px;  }
+
+            #header div#upper_right_nav div.quick_group a.quick_but.new
+            { background-color:#2D5788; border:1px solid #EAEAEA; color:#ffffff;}
+
+                #header div#upper_right_nav div.quick_group a.quick_but.new:hover
+            { color:#ffffff;}
+
+                #header div#upper_right_nav div.quick_group a.quick_but:first-child
+                { border-radius:3px 0 0 3px; }
+
+               #header div#upper_right_nav div.quick_group a.quick_but:last-child
+                { border-radius:0 3px 3px 0; margin-right: 0; }
+
+                #header div#upper_right_nav div.quick_group a.quick_but:hover
+                { text-decoration:none; border:1px solid #22acda; color:#3b414f; }
+
+                #header div#upper_right_nav div.quick_group a.quick_but.active
+                { text-decoration:none; border:1px solid #22acda; color:#3b414f; }
+
+                .alsc_logo
+                { width:20px; height:20px; float:left; display:inline-block; margin:8px 0 0 5px; background: url(/_application/content/images/basic_imgs.png) no-repeat scroll 0 0; }
+
+                #header div#upper_right_nav div.quick_group div a.quick_but span.icon
+                { width:10px; height:10px; display:inline-block; }
+
+
+                    #header div#upper_right_nav div.quick_group div a.quick_but span.icon.notifications
+                    { background: url(/_application/content/images/basic_imgs.png) no-repeat scroll -50px 0; }
+
+                    #header div#upper_right_nav div.quick_group div a.quick_but span.icon.messages
+                    { background: url(/_application/content/images/basic_imgs.png) no-repeat scroll -60px 0; }
+
+                    #header div#upper_right_nav div.quick_group div a.quick_but span.icon.people
+                    { background: url(/_application/content/images/basic_imgs.png) no-repeat scroll -70px 0; }
+
+                    #header div#upper_right_nav div.quick_group div a.quick_but span.icon.settings
+                    { background: url(/_application/content/images/basic_imgs.png) no-repeat scroll -80px 0; }
+
+
+            #header div#upper_right_nav div.quick_group div.float_left div.quick_drop
+            { position:absolute; background-color:#ffffff; border:1px solid #22acda; padding:5px; z-index:500; top:24px; max-height:500px; overflow: auto; }
+
+                #header div#upper_right_nav div.quick_group div.float_left div.quick_drop a
+                { display:block; padding:10px; color:#3b414f; font-size:12px; line-height:16px; border-bottom:1px solid #eaeaea; }
+
+                    #header div#upper_right_nav div.quick_group div.float_left div.quick_drop a:last-child
+                    { border-bottom: 0;}
+
+                    #header div#upper_right_nav div.quick_group div.float_left div.quick_drop a:hover
+                    { text-decoration: none; background-color:#dbf6ff; }
+
+                    #header div#upper_right_nav div.quick_group div.float_left div.quick_drop a#load_more
+                    { text-align: center; font-weight:bold; color:#22acda }
+
+#nav_body
+{ height:41px; min-width:900px; background-color:#1a314d; border-bottom:1px solid #eaeaea; padding:5px; position:fixed; z-index:100; top:58px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+
+    #nav_body ul#main_navi
+    { margin:0; padding:0; list-style: none; width:100%; text-align:center; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+
+        #nav_body ul#main_navi li
+        { float:left; padding:0 15px; position:relative; }
+
+        #nav_body ul#main_navi li:last-child
+        { border-right:none; }
+
+            #nav_body ul#main_navi li a
+            { color:#ffffff; display:block; padding:3px 0; position:relative; opacity:0.4; transition: all 0.2s ease 0s; }
+
+            #nav_body ul#main_navi li a.active
+            { opacity:1; }
+
+            #nav_body ul#main_navi li a:hover
+            { opacity:1; text-decoration:none; margin-top:-2px; padding-bottom:5px; }
+
+             #nav_body ul#main_navi li a.active:hover
+            { margin-top:0; padding-bottom:3px; }
+
+
+                #nav_body ul#main_navi li a span.icon
+                { width:15px; height:15px; margin:0 5px -3px 0; display:inline-block; }
+
+                    #nav_body ul#main_navi li a span.icon#modules
+                    { background: url(/_application/content/images/icons_user.png) no-repeat scroll 0 -30px; }
+
+
+
+                    #nav_body ul#main_navi li a span.icon#edp_house_lot_inventory
+                    { background: url(/_application/content/images/icons_edp.png) no-repeat scroll 0 -30px; }
+
+                    #nav_body ul#main_navi li a span.icon#edp_client_manager
+                    { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -15px -30px; }
+
+
+
+                    #nav_body ul#main_navi li a span.icon#edp_manage_users
+                    { background: url(/_application/content/images/icons_edp.png) no-repeat scroll 0 -45px; }
+
+                    #nav_body ul#main_navi li a span.icon#edp_modules
+                    { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -15px -45px; }
+
+                    #nav_body ul#main_navi li a span.icon#edp_reports
+                    { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -30px -45px; }
+
+                    #nav_body ul#main_navi li a span.icon#edp_variables
+                    { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -45px -45px; }
+
+
+
+                    #nav_body ul#main_navi li a span.icon#edp_project
+                    { background: url(/_application/content/images/icons_edp.png) no-repeat scroll 0 -60px; }
+
+                    #nav_body ul#main_navi li a span.icon#edp_inventory
+                    { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -15px -60px; }
+
+                    #nav_body ul#main_navi li a span.icon#edp_house_model
+                    { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -30px -60px; }
+
+
+
+                    #nav_body ul#main_navi li a span.icon#finance_overdue_accounts
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll 0 -30px; }
+
+                    #nav_body ul#main_navi li a span.icon#finance_retention_accounts
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -15px -30px; }
+
+                    #nav_body ul#main_navi li a span.icon#finance_account_explorer
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -30px -30px; }
+
+                    #nav_body ul#main_navi li a span.icon#finance_reports
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -45px -30px; }
+
+
+                    #nav_body ul#main_navi li a span.icon#finance_accounts
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll 0 -60px; }
+
+                    #nav_body ul#main_navi li a span.icon#finance_transaction_history
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -15px -60px; }
+
+                    #nav_body ul#main_navi li a span.icon#finance_collection_receipt
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -30px -60px; }
+
+                    #nav_body ul#main_navi li a span.icon#finance_lot_reservation_earnest
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -45px -60px; }
+
+                    #nav_body ul#main_navi li a span.icon#finance_daily_reports
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -60px -60px; }
+
+
+                    #nav_body ul#main_navi li a span.icon#finance_disbursement_completed
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll 0 -90px; }
+
+                    #nav_body ul#main_navi li a span.icon#finance_disbursement_request
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -15px -90px; }
+
+                    #nav_body ul#main_navi li a span.icon#finance_disbursement_department_head
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -30px -90px; }
+
+                    #nav_body ul#main_navi li a span.icon#finance_disbursement_executive_approval
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -45px -90px; }
+
+                    #nav_body ul#main_navi li a span.icon#finance_disbursement_treasury_cheque_details
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -60px -90px; }
+
+                    #nav_body ul#main_navi li a span.icon#finance_disbursement_executive_signatory
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -75px -90px; }
+
+                    #nav_body ul#main_navi li a span.icon#finance_disbursement_treasury_cheque_release
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -90px -90px; }
+
+                    #nav_body ul#main_navi li a span.icon#finance_disbursement_liquidate
+                    { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -105px -90px; }
+
+
+
+                    #nav_body ul#main_navi li a span.icon#sales_agents
+                    { background: url(/_application/content/images/icons_sales.png) no-repeat scroll 0 -30px; }
+
+                    #nav_body ul#main_navi li a span.icon#sales_director
+                    { background: url(/_application/content/images/icons_sales.png) no-repeat scroll -15px -30px; }
+
+                    #nav_body ul#main_navi li a span.icon#sales_manager
+                    { background: url(/_application/content/images/icons_sales.png) no-repeat scroll -30px -30px; }
+
+                    #nav_body ul#main_navi li a span.icon#sales_report
+                    { background: url(/_application/content/images/icons_sales.png) no-repeat scroll -45px -30px; }
+
+                    #nav_body ul#main_navi li a span.icon#sales_commission
+                    { background: url(/_application/content/images/icons_sales.png) no-repeat scroll -60px -30px; }
+
+                    #nav_body ul#main_navi li a span.icon#sales_backout
+                    { background: url(/_application/content/images/icons_sales.png) no-repeat scroll -75px -30px; }
+
+
+
+                #nav_body ul#main_navi li a i
+                { width:10px; height:10px; position:absolute; bottom:-5px; left:50%; background: url(/_application/content/images/basic_imgs.png) no-repeat scroll -20px 0; }
+
+        #nav_body ul#main_navi li div#nav_drop
+        { position:absolute; background-color:#eaeaea; border:2px solid #003399; border-top:0; padding:5px; min-width:200px; top:35px; left:0; }
+
+            #nav_body ul#main_navi li div#nav_drop a
+            { text-align:left; display:block; color:#3b414f; border-bottom:1px solid #d2d2d2; }
+
+            #nav_body ul#main_navi li div#nav_drop a:hover
+            { color:#003399; padding-left:5px; }
+
+            #nav_body ul#main_navi li div#nav_drop a:last-child
+            { border-bottom:0; }
+
+
+#content_body
+{ position:fixed; width:100%; margin:0 auto; min-width:900px; min-height:500px; top:110px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+
+    #content_body div#side_nav
+    { color:#5c5c5c; position:fixed; top:110px; z-index:100; background-color:#ebebeb; transition: all 0.2s ease 0s; }
+
+        #content_body div#side_nav div#side_footer
+        { width:150px; padding:5px; position:absolute; bottom:0; border-top:1px solid #dadada; font-size:10px; }
+
+        #content_body div#side_nav ul
+        { background-color:#f5f5f5; padding:0; margin:0 0 60px 0; list-style: none; width:100%; font-size:12px; text-align:left; overflow:hidden; white-space: nowrap; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+
+        #content_body div#side_nav ul:hover
+        { overflow-y:scroll; }
+
+            #content_body div#side_nav ul li
+            { margin-bottom:5px; text-transform: capitalize; }
+
+            #content_body div#side_nav ul li:last-child
+            { margin:0; }
+
+                #content_body div#side_nav ul li a
+                { display:block; color:#3b414f; padding:3px 15px; position:relative; }
+
+                #content_body div#side_nav ul li a:hover
+                { text-decoration:none; background-color:#dadada; }
+
+                #content_body div#side_nav ul li a:last-child
+                { border-bottom:2px solid #ebebeb; }
+
+                    #content_body div#side_nav ul li a span.label
+                    { position:absolute; margin:5px 0 0 10px; }
+
+                    #content_body div#side_nav ul li a i
+                    { width:4px; height:43px; background-color:#003399; left:0; top:0; position:absolute; }
+
+                    #content_body div#side_nav ul li a span.icon
+                    { width:15px; height:15px; margin-top:9px; display:inline-block; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_profile
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll 0 -75px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_accounts
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -15px -75px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_account_profile
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -30px -75px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_amortization
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -45px -75px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_earnest_history
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -60px -75px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_reservation_history
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -75px -75px; }
+
+
+                        #content_body div#side_nav ul li a span.icon#edp_user_profile
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll 0 -90px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_user_modules
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -15px -90px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_user_reports
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -30px -90px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_user_edit
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -45px -90px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_user_delete
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -60px -90px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_users
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -75px -90px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_logs
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -90px -90px; }
+
+
+                        #content_body div#side_nav ul li a span.icon#edp_project_profile
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll 0 -105px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_site
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -15px -105px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_block
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -30px -105px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_lot
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -45px -105px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_price_history
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -60px -105px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_remarks
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -75px -105px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_edit
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -90px -105px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_price_adjust
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -105px -105px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_project_codes
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -120px -105px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_agent_manager
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -135px -105px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_status
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -150px -105px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_hold
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -165px -105px; }
+
+                        #content_body div#side_nav ul li a span.icon#edp_house_profile
+                        { background: url(/_application/content/images/icons_edp.png) no-repeat scroll -180px -105px; }
+
+
+
+                        #content_body div#side_nav ul li a span.icon#finance_profile
+                        { background: url(/_application/content/images/icons_finance.png) no-repeat scroll 0 -45px; }
+
+                        #content_body div#side_nav ul li a span.icon#finance_overdues
+                        { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -15px -45px; }
+
+                        #content_body div#side_nav ul li a span.icon#finance_letters
+                        { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -30px -45px; }
+
+                        #content_body div#side_nav ul li a span.icon#finance_remarks
+                        { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -45px -45px; }
+
+                        #content_body div#side_nav ul li a span.icon#finance_document_history
+                        { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -60px -45px; }
+
+
+                        #content_body div#side_nav ul li a span.icon#finance_transactions
+                        { background: url(/_application/content/images/icons_finance.png) no-repeat scroll 0 -75px; }
+
+                        #content_body div#side_nav ul li a span.icon#finance_recurring_payment
+                        { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -15px -75px; }
+
+                        #content_body div#side_nav ul li a span.icon#finance_others
+                        { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -30px -75px; }
+
+                        #content_body div#side_nav ul li a span.icon#finance_reservation
+                        { background: url(/_application/content/images/icons_finance.png) no-repeat scroll -45px -75px; }
+
+
+                        #content_body div#side_nav ul li a span.icon#sales_profile
+                        { background: url(/_application/content/images/icons_sales.png) no-repeat scroll 0 -45px; }
+
+                        #content_body div#side_nav ul li a span.icon#sales_sales_history
+                        { background: url(/_application/content/images/icons_sales.png) no-repeat scroll -15px -45px; }
+
+                        #content_body div#side_nav ul li a span.icon#sales_commission_history
+                        { background: url(/_application/content/images/icons_sales.png) no-repeat scroll -30px -45px; }
+
+                        #content_body div#side_nav ul li a span.icon#sales_backout
+                        { background: url(/_application/content/images/icons_sales.png) no-repeat scroll -45px -45px; }
+
+                        #content_body div#side_nav ul li a span.icon#sales_performance
+                        { background: url(/_application/content/images/icons_sales.png) no-repeat scroll -60px -45px; }
+
+                        #content_body div#side_nav ul li a span.icon#sales_remarks
+                        { background: url(/_application/content/images/icons_sales.png) no-repeat scroll -75px -45px; }
+
+                        #content_body div#side_nav ul li a span.icon#sales_edit
+                        { background: url(/_application/content/images/icons_sales.png) no-repeat scroll -90px -45px; }
+
+                        #content_body div#side_nav ul li a span.icon#sales_delete
+                        { background: url(/_application/content/images/icons_sales.png) no-repeat scroll -105px -45px; }
+
+                        #content_body div#side_nav ul li a span.icon#sales_lots
+                        { background: url(/_application/content/images/icons_sales.png) no-repeat scroll -120px -45px; }
+
+                        #content_body div#side_nav ul li a span.icon#sales_director_side
+                        { background: url(/_application/content/images/icons_sales.png) no-repeat scroll -135px -45px; }
+
+                        #content_body div#side_nav ul li a span.icon#sales_agents_side
+                        { background: url(/_application/content/images/icons_sales.png) no-repeat scroll -150px -45px; }
+
+
+                #content_body div#side_nav ul li a.group
+                { font-weight:bold; color:#003399; }
+
+                    #content_body div#side_nav ul li a.group:hover
+                    { font-weight:bold; color:#003399; background-color:#f5f5f5; text-decoration:underline; }
+
+
+
+    #content_body div#dashboard
+    { padding:24px 0 0 0; }
+
+        #content_body div#dashboard div.widget
+        { padding:8px; border-radius:5px; border:1px solid #eaeaea; }
+
+            #content_body div#dashboard div.widget:hover
+            { border:1px solid #d1d1d1; cursor:pointer; }
+
+        #content_body div#dashboard div.widget h1 a
+        { font-size:18px; font-weight: normal; color:#282F39; }
+
+            #content_body div#dashboard div.widget h1 a:hover
+            { text-decoration: none; color:#003399; }
+
+            #content_body div#dashboard div.widget table tr:nth-child(even)
+            { background-color:#f5f5f5; }
+
+                #content_body div#dashboard div.widget table tr:nth-child(even):hover
+                { background-color:#f5f5f5; cursor:default; }
+
+                #content_body div#dashboard div.widget table tr:hover
+                { background-color:#ffffff; cursor:default; }
+
+                #content_body div#dashboard div.widget table thead tr:hover
+                { background-color:#F8F9FD; cursor:default; }
+
+            #content_body div#dashboard div.widget table tr td
+            { border:0; }
+
+                #content_body div#dashboard div.widget table tr td.label
+                { font-weight:bold; }
+
+
+
+    #content_body div#side_listings
+    { height:100%; min-height:500px; background-color:#ffffff; margin-bottom:10px; transition: all 0.2s ease 0s; }
+
+        #content_body div#side_listings div#controls
+        { padding:10px 10px 0 10px; background-color:#ffffff; }
+
+            #content_body div#side_listings div#controls a.side_nav_switch.hide
+            { background: url(/_application/content/images/icons_controls.png) no-repeat scroll 0 0 #F8F9FD; width:30px; height:30px; border:1px solid #C5C6CA; border-radius:2px; display:inline-block; }
+
+                #content_body div#side_listings div#controls a.side_nav_switch.hide:hover
+                { border:1px solid #919296; }
+
+            #content_body div#side_listings div#controls a.side_nav_switch.unhide
+            { background: url(/_application/content/images/icons_controls.png) no-repeat scroll -30px 0 #F8F9FD; width:30px; height:30px; border:1px solid #C5C6CA; border-radius:2px; display:inline-block; }
+
+                #content_body div#side_listings div#controls a.side_nav_switch.unhide:hover
+                { border:1px solid #919296; }
+
+
+            #content_body div#side_listings div#controls h1
+            { float:left; font-size:14px; margin:5px 20px 0 0; }
+
+
+
+            #content_body div#side_listings a.search_button
+            { background: url(/_application/content/images/icons_controls.png) no-repeat scroll -60px 0 #F8F9FD; width:30px; height:30px; border:1px solid #C5C6CA; border-radius:2px; float:left; }
+
+                #content_body div#side_listings a.search_button:hover
+                { border:1px solid #919296; }
+
+
+            #content_body div#side_listings div#search_body
+            { padding:1px; border-radius:2px; border:1px solid #C5C6CA; min-width:200px; }
+
+                #content_body div#side_listings div#search_body input
+                { padding:5px; margin:0; width:220px; border:0; background-color:#ffffff; }
+
+
+            #content_body div#side_listings div#search_body a.search_button
+            { background: url(/_application/content/images/icons_controls.png) no-repeat scroll -63px -2px #F8F9FD; width:25px; height:26px; border:1px solid #C5C6CA; border-radius:2px; }
+
+                #content_body div#side_listings div#search_body a.search_button:hover
+                { border:1px solid #919296; }
+
+
+
+
+            #content_body div#side_listings div#controls a.control_button
+            { padding:3px 10px; color:#919296; border:1px solid #C5C6CA; border-radius:2px; background-color:#F8F9FD; display:inline-block; font-weight:bold }
+
+                #content_body div#side_listings div#controls a.control_button:hover
+                { color:#56575b; border:1px solid #919296; text-decoration: none; }
+
+            #content_body div#side_listings div#controls div#old_new a
+            { width:30px; height:30px; border:1px solid #C5C6CA; border-radius:2px; background-color:#F8F9FD; display:inline-block; }
+
+                #content_body div#side_listings div#controls div#old_new a.newer
+                { background: url(/_application/content/images/icons_controls.png) no-repeat scroll -90px 0 #F8F9FD; }
+
+                #content_body div#side_listings div#controls div#old_new a.older
+                { background: url(/_application/content/images/icons_controls.png) no-repeat scroll -120px 0 #F8F9FD; }
+
+                #content_body div#side_listings div#controls div#old_new a:hover
+                { border:1px solid #919296; text-decoration: none; }
+
+            #content_body div#side_listings div#controls a span.icon
+            { width:15px; height:15px; display:block; float:right; margin:4px 0 0 5px; }
+
+                #content_body div#side_listings div#controls a span.icon.select
+                { background: url(/_application/content/images/icons_controls.png) no-repeat scroll -15px -30px #F8F9FD; }
+
+                #content_body div#side_listings div#controls a span.icon.sort
+                { background: url(/_application/content/images/icons_controls.png) no-repeat scroll -15px -30px #F8F9FD; }
+
+                #content_body div#side_listings div#controls a span.icon.action
+                { background: url(/_application/content/images/icons_controls.png) no-repeat scroll -30px -30px #F8F9FD; }
+
+                #content_body div#side_listings div#controls a span.icon.refresh
+                { background: url(/_application/content/images/icons_controls.png) no-repeat scroll -45px -30px #F8F9FD; }
+
+                #content_body div#side_listings div#controls a span.icon.save
+                { background: url(/_application/content/images/icons_controls.png) no-repeat scroll -60px -30px #F8F9FD; }
+
+
+
+            #content_body div#side_listings table
+            {  }
+
+                #content_body div#side_listings table tr.seen
+                { background-color:#eaeaea; font-weight:normal; }
+
+                #content_body div#side_listings table tr.selected
+                { background-color:#FFFFCC; }
+
+                    #content_body div#side_listings table tr.selected:hover
+                    { background-color:#FFFFCC; }
+
+                    #content_body div#side_listings table tbody tr:hover
+                    { background-color:#D8DFEA; }
+
+
+                #content_body div#side_listings table tbody tr:nth-child(even)
+                { background-color:#f2f2f2; }
+
+                    #content_body div#side_listings table tbody tr:nth-child(even):hover
+                    { background-color:#D8DFEA; }
+
+                #content_body div#side_listings table tbody tr td
+                { border-bottom:1px solid #eaeaea; }
+
+                    #content_body div#side_listings table tbody tr td:first-child
+                    { border-left:1px solid #eaeaea; }
+
+                    #content_body div#side_listings table tbody tr td:last-child
+                    { border-right:1px solid #eaeaea; }
+
+
+                    #content_body div#side_listings table tr td div.details
+                    { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; max-width:670px; font-weight:normal; }
+
+
+                    #content_body div#side_listings table tr td input
+                    { padding:10px; margin:0; }
+
+                        #content_body div#side_listings table tr td span.msg
+                        { font-weight: normal; color:#919296; font-size:12px; }
+
+                        #content_body div#side_listings table tr td span.msg.important
+                        { font-weight: normal; color:#cd2228; }
+
+                        #content_body div#side_listings table tr td span.msg.generated
+                        { font-weight: normal; color:#00a65c; }
+
+
+            #content_body div#side_listings div#client_profile
+            { width:98%; margin-top:10px; margin-bottom:40px; }
+
+                #content_body div#side_listings div#client_profile img
+                { width:75px; height:75px; border:1px solid #eaeaea; margin:0 10px 10px 10px; }
+
+
+            #content_body div#side_listings #remarks_section
+            { width:70%; min-width: 900px; padding:20px; margin:0 auto; }
+
+                #content_body div#side_listings #remarks_section div.remark_body
+                { border-bottom:1px dashed gray; padding:15px; }
+
+                    #content_body div#side_listings #remarks_section div.remark_body div.details
+                    { float:left; width:26%; padding-top:15px; text-align:right; }
+
+                        #content_body div#side_listings #remarks_section div.remark_body div.details h1
+                        { font-size:18px; }
+
+                        #content_body div#side_listings #remarks_section div.remark_body div.details h2
+                        { font-weight: normal; }
+
+                    #content_body div#side_listings #remarks_section div.remark_body div.bubble
+                    { width:70%; padding:10px; float:right; background-color:#e6e6e6; border-radius:5px; border:1px solid gray; margin-top:5px; font-weight:normal; min-height:50px; font-size:14px; }
+
+
+                #content_body div#side_listings #remarks_section div.remark_body.system_generated
+                { border-bottom:1px dashed gray; padding:15px; }
+
+                        #content_body div#side_listings #remarks_section div.remark_body.system_generated div.details h1
+                        { font-size:18px; color:#003399; }
+
+                        #content_body div#side_listings #remarks_section div.remark_body.system_generated div.details h2
+                        { font-weight: normal; color:#003399; }
+
+                    #content_body div#side_listings #remarks_section div.remark_body.system_generated div.bubble
+                    { background-color:#003399; padding:10px; border-radius:5px; border:1px solid #003399; margin-top:5px; color:#ffffff; font-weight:normal; min-height:50px; }
+
+
+
+        #content_body div#side_listings div#user_systems span.sys_icon.client
+        { background: url(/_application/content/images/icons_systems.png) no-repeat scroll 0 0; }
+
+        #content_body div#side_listings div#user_systems span.sys_icon.content
+        { background: url(/_application/content/images/icons_systems.png) no-repeat scroll -100px 0; }
+
+        #content_body div#side_listings div#user_systems span.sys_icon.inventory
+        { background: url(/_application/content/images/icons_systems.png) no-repeat scroll -200px 0; }
+
+        #content_body div#side_listings div#user_systems span.sys_icon.billing
+        { background: url(/_application/content/images/icons_systems.png) no-repeat scroll 0 -100px; }
+
+        #content_body div#side_listings div#user_systems span.sys_icon.cashier
+        { background: url(/_application/content/images/icons_systems.png) no-repeat scroll -100px -100px; }
+
+        #content_body div#side_listings div#user_systems span.sys_icon.accounting
+        { background: url(/_application/content/images/icons_systems.png) no-repeat scroll -200px -100px; }
+
+        #content_body div#side_listings div#user_systems span.sys_icon.disbursement
+        { background: url(/_application/content/images/icons_systems.png) no-repeat scroll -300px -100px; }
+
+        #content_body div#side_listings div#user_systems span.sys_icon.documentation
+        { background: url(/_application/content/images/icons_systems.png) no-repeat scroll -400px -100px; }
+
+        #content_body div#side_listings div#user_systems span.sys_icon.sales
+        { background: url(/_application/content/images/icons_systems.png) no-repeat scroll 0 -200px; }
+
+        #content_body div#side_listings div#user_systems span.sys_icon.engineering
+        { background: url(/_application/content/images/icons_systems.png) no-repeat scroll 0 -300px; }
+
+        #content_body div#side_listings div#user_systems span.sys_icon.contractor
+        { background: url(/_application/content/images/icons_systems.png) no-repeat scroll -100px -300px; }
+
+        #content_body div#side_listings div#user_systems span.sys_icon.utility
+        { background: url(/_application/content/images/icons_systems.png) no-repeat scroll -200px -300px; }
+
+        #content_body div#side_listings div#user_systems span.sys_icon.utility_finance
+        { background: url(/_application/content/images/icons_systems.png) no-repeat scroll -300px -300px; }
+
+        #content_body div#side_listings div#user_systems span.sys_icon.payroll
+        { background: url(/_application/content/images/icons_systems.png) no-repeat scroll 0 -400px; }
+
+
+
+        #content_body div#side_listings div#chat_list
+        { width: 290px; border-right:1px solid #eaeaea; float:left; position:fixed; overflow:auto; }
+
+            #content_body div#side_listings div#chat_list div.list_body
+            { padding:10px; border-bottom:1px solid #eaeaea; }
+
+                #content_body div#side_listings div#chat_list div.list_body:hover
+                { background-color:#D8DFEA; cursor:pointer; }
+
+                #content_body div#side_listings div#chat_list div.list_body.active      /********* if list is selected **********/
+                { background-color:#2D5788; color:#fff; }
+
+                    #content_body div#side_listings div#chat_list div.list_body.active div.info span
+                    { color:#fff; }
+
+                #content_body div#side_listings div#chat_list div.list_body div.info
+                { width:160px; height:50px; float:left; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; }
+
+                    #content_body div#side_listings div#chat_list div.list_body div.info b
+                    { font-size:14px; }
+
+                    #content_body div#side_listings div#chat_list div.list_body div.info span
+                    { color:gray; }
+
+                #content_body div#side_listings div#chat_list div.list_body div.time
+                { float:right; }
+
+                #content_body div#side_listings div#chat_list div.list_body div.new_count
+                { position:absolute; right:8px; bottom:8px; color:#fff; padding:0 5px; background-color:#22acda; border-radius:10px; font-size:9px; min-width:10px; text-align:center; }
+
+                #content_body div#side_listings div#chat_list div.list_body a.photo
+                { width:40px; height:40px; border:1px solid #eaeaea; border-radius:5px; margin-right:10px; float:left; background-color:#eaeaea; }
+
+            #content_body div#side_listings a.participant_info
+            { background:#22acda; margin-left:10px; padding:0 11px; border-radius:20px; }
+
+              #content_body div#side_listings a.participant_info:hover
+              { text-decoration: none; background:#2D5788;}
+
+            #content_body div#side_listings div#participant_listbody
+            { background:white; max-height: 500px; min-width:200px; right:-178px; border-radius:12px; border:1px solid #22acda; z-index: 500; overflow: hidden;}
+              #content_body div#side_listings div#participant_listbody ul {margin:0; padding:0; overflow-y: scroll; max-height: 450px;}
+              #content_body div#side_listings div#participant_listbody li {list-style: none; padding:5px 10px; border-bottom:solid 1px #EBEBEB;}
+                #content_body div#side_listings div#participant_listbody li:last-child {border:0; margin-bottom: 10px;}
+
+
+
+
+            #content_body div#side_listings div#chat_input
+            { height:100px; min-width:552px; width:100%; margin-left: 290px; float:left; padding:10px; background-color:#e4e9f0; border-top:1px solid #c1c1c1;  }
+
+                #content_body div#side_listings div#chat_input div#chat_box
+                { border:1px solid #eaeaea; width:60%; max-width:880px; height:55px; }
+
+                #content_body div#side_listings div#chat_input div#chat_box textarea
+                { padding:3px; font-size:11px; background-color:#fff; height:55px; width:80%; float:left; }
+
+            #content_body div#side_listings div#chat_logs
+            { min-width:592px; max-width:890px; width:67%; margin-left: 290px; float:left; overflow:auto; }
+
+                #content_body div#side_listings div.message
+                { width:100%; margin-bottom:20px; float:left; }
+
+
+                #content_body div#side_listings div.message div.info
+                { width:90%; float:left; }
+
+                    #content_body div#side_listings div.message div.info b
+                    { font-size:14px; }
+
+                    #content_body div#side_listings div.message div.info span
+                    { }
+
+                #content_body div#side_listings div.message div.time
+                { width:45; float:right; color:gray; }
+
+                #content_body div#side_listings div.message a.photo
+                { width:40px; height:40px; border:1px solid #eaeaea; border-radius:5px; margin-right:10px; float:left; background-color:#eaeaea; }
+
+                #content_body div#side_listings div.message a.file_uploaded
+                {color:white; background:#22acda; display:block; width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+                  #content_body div#side_listings div.message a.file_uploaded span
+                  {padding:0 5px; margin:0;}
+                  #content_body div#side_listings div.message a.file_uploaded span:first-child
+                  {background:black; padding:3px 5px;}
+                  #content_body div#side_listings div.message a.file_uploaded:hover
+                  {text-decoration: none; background:#4F84AF;}
+
+
+            #content_body div#side_listings div.message_u
+            { width:98%; padding:10px; margin-bottom:20px; float:right; background-color:#f2f2f2; }
+
+                #content_body div#side_listings div.message_u div.info
+                { width:90%; float:right; }
+
+                    #content_body div#side_listings div.message_u div.info b
+                    { font-size:14px;  float:right;}
+
+                #content_body div#side_listings div.message_u div.time
+                { width:45; float:left; color:gray; }
+
+                #content_body div#side_listings div.message_u a.photo
+                { width:40px; height:40px; border:1px solid #eaeaea; border-radius:5px; margin-left:10px; float:right; background-color:#eaeaea; }
+
+
+            #content_body div#side_listings div#new_msg_container
+            { border-bottom: 1px solid #c1c1c1; padding:0 0 5px 0; }
+
+                #content_body div#side_listings div#new_msg_container div.participant
+                { border:1px solid #2D5788; background-color:#d1dce9; padding: 2px 4px; margin:0 0 5px 5px; float:left; line-height:15px; }
+
+                    #content_body div#side_listings div#new_msg_container div.participant a
+                    { font-weight:bold; padding:0 3px; }
+
+                    #content_body div#side_listings div#new_msg_container div.participant a:hover
+                    { color:#fff; background-color:#2D5788; text-decoration:none; }
+
+                #content_body div#side_listings div#new_msg_container  input#part_input
+                { font-size:10px; padding:5px 0; width:auto; border:0; background-color:#fff; margin-left:10px; }
+
+
+            #content_body div#side_listings div.new_search_result
+            { border-bottom:1px solid #c1c1c1; padding:5px;}
+
+                #content_body div#side_listings div.new_search_result:hover
+                { background-color:#2D5788; cursor: pointer; color:#fff; }
+
+                    #content_body div#side_listings div.new_search_result a.photo
+                    { width:40px; height:40px; border:1px solid #eaeaea; border-radius:5px; margin-right:10px; float:left; background-color:#eaeaea; }
+
+                    #content_body div#side_listings div.new_search_result   b
+                    { font-size:14px; }
+
+        #content_body div#side_listings div.payrollcalendar_box
+        { width:50px; height:50px; margin:0 auto; border:1px solid #22ACDA; background-color:#fff;  }
+
+            #content_body div#side_listings div.payrollcalendar_box a.day
+            { color:#fff; background-color:#22acda; display:block; }
+
+                #content_body div#side_listings div.payrollcalendar_box a.day:hover
+                { background-color:#007BBB; text-decoration: none; }

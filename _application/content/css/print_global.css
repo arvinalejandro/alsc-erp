@@ -1,0 +1,160 @@
+body
+{ font-family:Arial; margin:0; padding:0; background-color:#e5e5e5; text-align:justify; }
+
+
+h1 { font-size:14pt; margin-bottom:5px; }
+h2 { font-size:12pt; color:#ffffff; margin:0; }
+h3 { font-size:8px; letter-spacing: 3px; color:#cecece; margin:0; }
+
+
+b { font-weight:bold; text-decoration: underline; color:#003399; }
+
+img { border:0; }
+
+.check_box
+{ width:15px; height:15px; float:left; border:1px solid black; border-radius:5px; margin:0 10px 10px 0; }
+
+    .check_box:hover
+    { background-color:gray; cursor:pointer; }
+    
+    .check_box.active
+    { background-color:black; }
+    
+
+#print_controls
+{ width:100%; min-width:960px; background-color:#282524; position:fixed; padding:10px 0; z-index:1000; }
+
+div#input_controls
+{ width:100%; height:200px; background-color:#003399; position:fixed; bottom:0; padding:10px 0; z-index:1000; transition: all 0.2s ease 0s; }
+
+div#input_controls.hidden
+{ bottom:-204px; }
+
+    div#input_controls div#input_hider
+    { margin:-40px 40px 5px 0; float:right; padding:5px; border-radius:5px; background-color:#003399; text-align: center; }
+    
+    div#input_controls div#input_hider button.none
+    { display:none; }
+    
+    div#input_controls div#scroller
+    { width:98%; height:190px;  margin:0 auto; overflow-y: scroll; }
+
+    div#input_controls div#input_body
+    { width:100%; min-width:800px; background-color:#ffffff; }
+    
+    div#input_controls div#input_body table.border
+    { border:1px solid #dddddd; }
+    
+        div#input_controls div#input_body table.border span
+        { font-size:12px; }
+        
+        div#input_controls div#input_body table.border input
+        { background-color:#f8f8f8; padding:10px; border:1px solid #cccccc; border-radius:5px; box-sizing:border-box; color:#919296; float:left; width:100%; }
+        
+            div#input_controls div#input_body table.border input:focus
+            { background-color:#ffffff; border:1px solid #003399; outline: none; color:#000000; }
+            
+            div#input_controls div#input_body table.border input:hover
+            { color:#000000; background-color:#ffffff; }
+            
+        div#input_controls div#input_body table.border tr:hover
+        { background-color:#eff1f7; }  
+        
+        div#input_controls div#input_body table.border td
+        { border-right:1px solid #dddddd; }
+        
+            div#input_controls div#input_body table.border td:last-child
+            { border-right:0; }
+            
+        div#input_controls div#input_body table.border tr td      
+        { border-bottom:1px solid #dddddd; } 
+            
+            div#input_controls div#input_body table.border tr:last-child td       
+            { border-bottom:0; } 
+
+        div#input_controls div#input_body table.border table.border td
+        { border-right:1px solid #dddddd; }
+        
+            div#input_controls div#input_body table.border table.border td:last-child
+            { border-right:0; }
+            
+        div#input_controls div#input_body table.border table.border tr td      
+        { border-bottom:1px solid #dddddd; } 
+            
+            div#input_controls div#input_body table.border table.border tr:last-child td       
+            { border-bottom:0; } 
+            
+button
+{ padding:7px 15px 7px 12px; border-radius:5px; transition:background-color 0.2s ease 0s; }   
+
+button:hover
+{ cursor:pointer; }
+
+    button.blue
+    { background-color:#22acda; border:1px solid #2198c0; color:#ffffff; font-weight:bold; }
+    
+     button.blue:hover
+    { background-color:#2198c0; border:1px solid #5bd6ff; }
+    
+    button span
+    { float:left; border:1px solid black; width:15px; height:15px; margin-right:5px; }
+    
+     button.gray
+    { background-color:#5d5b5a; border:1px solid #5d5b5a; color:#1a1817; }
+    
+     button.gray:hover
+    { background-color:#dddddd; border:1px solid #56575b; }
+    
+    
+table.border
+{ border:1px solid black; }   
+
+    table.border td
+    { border-right:1px solid black; }
+    
+        table.border td:last-child
+        { border-right:0; }
+        
+    table.border tr td      
+    { border-bottom:1px solid black; } 
+        
+        table.border tr:last-child td       
+        { border-bottom:0; } 
+        
+
+    table.border table.border td
+    { border-right:1px solid black; }
+    
+        table.border table.border td:last-child
+        { border-right:0; }
+        
+    table.border table.border tr td      
+    { border-bottom:1px solid black; } 
+        
+        table.border table.border tr:last-child td       
+        { border-bottom:0; }     
+
+
+hr
+{ display:block; width:948px; height:20px; float:none; clear:both; background-color:#e5e5e5; border-top:1px solid #dddddd; border-bottom:1px solid #dddddd; border-left:0; border-right:0; margin-left: -51px; }
+
+    ol hr
+    { margin:50px 0 50px -91px; }
+    
+    ul hr
+    { margin:50px 0 50px -91px; }
+    
+    ol ol hr, ul ul hr
+    {  margin:50px 0 50px -131px; }
+    
+div.page_number
+{ text-align:right; margin-top:20px; opacity:.5; }
+    
+
+label
+{ display:block; width:100%; height:0px; overflow:hidden; float:none; clear:both; }
+
+label#top_pad
+{ padding-top:80px; }
+
+

@@ -1,0 +1,558 @@
+/* CLASS CSS by DLSMIZEL 2014 */
+
+body
+{
+ margin: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 11px; line-height: 24px; color: #282f39; background-color:#ebebeb; -webkit-text-size-adjust:none;
+/*
+ zoom: 1.5;
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+ */
+}
+
+.web_content
+{ width: 960px; height: auto; margin: auto;  z-index: 1; }
+
+.content_gray
+{ background-color: #eaeaea; }
+
+.content_white
+{ background-color: #fff; }
+
+.content_section
+{ background-color: #fff; border: 1px solid #eaeaea; border-radius:4px; }
+
+/* -------------------------------
+    images_
+--------------------------------- */
+
+img
+{ border: none; }                                               
+
+body
+{
+ margin: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 11px; line-height: 24px; color: #282f39; background-color:#ebebeb; -webkit-text-size-adjust:none;
+/*
+ zoom: 1.5;
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+ */
+}
+
+.web_content
+{ width: 960px; height: auto; margin: auto;  z-index: 1; }
+
+.content_gray
+{ background-color: #eaeaea; }
+
+.content_white
+{ background-color: #fff; }
+
+.content_section
+{ background-color: #fff; border: 1px solid #eaeaea; border-radius:4px; }
+
+/* -------------------------------
+    images_
+--------------------------------- */
+
+img
+{ border: none; }
+
+
+/* -------------------------------
+    links_
+--------------------------------- */
+
+a
+{ color:#003399; }
+
+a:hover
+{ text-decoration:underline; }
+
+
+a.link_button_block
+{ display:block; margin-top: 2px; font-size: 11px; color: #717171; text-align: center; padding: 2px 10px; background-color: #f9f9f9; border-radius:3px; }
+
+    a.link_button_block.blue
+    { background-color:#22acda; color:#fff; transition:background-color 0.2s ease 0s; }
+
+        a.link_button_block.blue:hover
+        { background-color:#2198c0; color:#fff; text-decoration: none; }
+        
+    a.link_button_block.green
+    { background-color:#00a65c; color:#fff; transition:background-color 0.2s ease 0s; }
+
+        a.link_button_block.green:hover
+        { background-color:#008f51; color:#fff; text-decoration: none; }        
+
+    a.link_button_block.gray
+    { color: #919296; background-color:#f5f5f5; border:1px solid #C5C6CA; transition:background-color 0.2s ease 0s; }
+
+        a.link_button_block.gray:hover
+        { color: #56575b; background-color:#dddddd; text-decoration: none; }
+
+
+a.link_button_inline
+{ display:inline; font-size: 10px; text-align: center; padding: 5px 10px; border-radius: 3px;  }
+
+    a.link_button_inline.blue
+    { color: #fff; background-color:#22acda; border:1px solid #2198c0; transition:background-color 0.2s ease 0s; }
+        
+        a.link_button_inline.blue:hover
+        { background-color:#2198c0; text-decoration:none;}
+        
+        a.link_button_inline.blue span.user_add
+        { float:left; height:15px; width:15px; background: url(/_application/content/images/basic_imgs.png) no-repeat scroll 0 -20px; margin:4px 5px 0 0; }
+        
+        a.link_button_inline.blue span.add
+        { float:left; height:10px; width:10px; background: url(/_application/content/images/basic_imgs.png) no-repeat scroll -50px -10px; margin:7px 5px 0 0; }
+        
+    a.link_button_inline.red
+    { color: #fff; background-color:#cd2228; border:1px solid #b31b20; transition:background-color 0.2s ease 0s; }
+        
+        a.link_button_inline.red:hover
+        { background-color:#b31b20; text-decoration:none;}
+        
+        a.link_button_inline.red span.remove
+        { float:left; height:10px; width:10px; background: url(/_application/content/images/basic_imgs.png) no-repeat scroll -80px -10px; margin:8px 10px 0 0; }
+        
+    a.link_button_inline.green
+    { color: #fff; background-color:#00a65c; border:1px solid #008f51; transition:background-color 0.2s ease 0s; }
+        
+        a.link_button_inline.green:hover
+        { background-color:#008f51; text-decoration:none;}        
+        
+    a.link_button_inline.gray
+    { color: #919296; background-color:#f5f5f5; border:1px solid #C5C6CA; transition:background-color 0.2s ease 0s; }
+        
+        a.link_button_inline.gray:hover
+        { color: #56575b; background-color:#dddddd; text-decoration:none;}    
+
+
+
+/* -------------------------------
+    form_
+--------------------------------- */
+
+/*transition: all 0.3s ease-out 0s;*/
+
+input
+{ width:100%; padding:12px 10px; color:#919296; margin-bottom: 20px; border:1px solid #cccccc; background-color:#f8f8f8; border-radius:5px; float:left; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+
+    input:hover
+    { color:#282F39; }
+    
+    input:focus
+    { border:1px solid #003399; color:#282F39; background-color:#ffffff; outline:none;}
+    
+    input[type=checkbox], input[type=radio]
+    { cursor:pointer; width:auto;  }
+    
+
+div.radio_group
+{ float:left; margin-right:20px; }
+
+    
+    div.radio_group label
+    { display:inline; height:24px; border:1px solid #cccccc; border-radius:5px; padding:3px 5px; background-color: #ffffff; }
+    
+    
+    /* hide input */
+    div.radio_group input.radio:empty
+    { display:none; }
+    
+    /* style label */
+    div.radio_group input.radio:empty ~ label
+    { color:#919296; position: relative; float: left; text-indent: 35px; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;} 
+    
+    div.radio_group input.radio:empty ~ label:before
+    { position: absolute; display: block; top: 0; bottom: 0; left: 0; content: ''; width: 25px; background: #D1D3D4; }
+    
+    
+    /* toggle hover*/
+    div.radio_group input.radio:hover:not(:checked) ~ label:before
+    { content:'o'; text-indent: 8px; line-height:30px; color: #7e7e7e;}
+    
+    div.radio_group input.radio:hover:not(:checked) ~ label
+    { border:1px solid #919296; }
+    
+    
+    /* toggle on*/
+    div.radio_group input.radio:checked ~ label:before 
+    { content:'o'; text-indent: 8px; line-height:30px; color: #fff; background-color: #00a65c; }
+    
+    div.radio_group input.radio:checked ~ label
+    { color: #282f39; }
+    
+    
+    /* radio focus */
+    div.radio_group input.radio:focus ~ label
+    { border: 1px solid #dddddd; }
+    
+
+div.checkbox_group
+{ float:left; margin-right:20px; }
+
+    
+    div.checkbox_group label
+    { display:inline; height:24px; border:1px solid #cccccc; border-radius:5px; padding:3px 5px; background-color: #ffffff; }
+    
+    
+    /* hide input */
+    div.checkbox_group input.checkbox:empty
+    { display:none; }
+    
+    /* style label */
+    div.checkbox_group input.checkbox:empty ~ label
+    { color:#919296; position: relative; float: left; text-indent: 35px; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;} 
+    
+    div.checkbox_group input.checkbox:empty ~ label:before
+    { position: absolute; display: block; top: 0; bottom: 0; left: 0; content: ''; width: 25px; background: #D1D3D4; }
+    
+    
+    /* toggle hover*/
+    div.checkbox_group input.checkbox:hover:not(:checked) ~ label:before
+    { content:'\2714'; text-indent: 8px; line-height:30px; color: #7e7e7e;}
+    
+    div.checkbox_group input.checkbox:hover:not(:checked) ~ label
+    { border:1px solid #919296; }
+    
+    
+    /* toggle on*/
+    div.checkbox_group input.checkbox:checked ~ label:before 
+    { content:'\2714'; text-indent: 8px; line-height:30px; color: #fff; background-color: #00a65c; }
+    
+    div.checkbox_group input.checkbox:checked ~ label
+    { color: #282f39; }
+    
+    
+    /* radio focus */
+    div.checkbox_group input.checkbox:focus ~ label
+    { border: 1px solid #dddddd; }    
+    
+    
+fieldset
+{ width:95%; padding:5px; margin:20px auto 40px auto; border:1px solid #999999; }  
+
+    fieldset legend
+    { font-size:14px; font-weight:bold; border-radius:5px; border:1px solid #999999; padding:2px 10px; }  
+    
+
+select
+{ width:100%; height:42px; color:#919296; padding:10px; border:1px solid #cccccc; background-color:#f8f8f8; border-radius:5px; float:left; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;  }
+
+    select:hover
+    { cursor:pointer; color:#282F39; }
+
+    select:focus
+    { border:1px solid #003399; background-color:#ffffff; outline:none;}
+
+option
+{ border-bottom:1px solid #bbbbbb; padding:10px; width:100%; font-family:Arial; }
+
+
+textarea
+{ padding:5px 0 5px 5px; border:1px solid #cccccc; border-radius:5px; background-color:#F8F8F8; display:block; resize:none; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+
+    textarea:focus
+    { border:1px solid #003399; background-color:#ffffff; outline:none; }
+
+.submit_button
+{ background-color:#0078C9; color:#fff; width:252px; border:none; cursor:pointer; }
+
+    .submit_button:hover
+    { background-color: #009A49; }
+
+    
+    
+div.status_bar
+{ width:100%; height:10px; border:1px solid #00A65C; } 
+
+    div.status_bar .precent_bar
+    { height:10px; background-color:#00A65C; transition: all 0.2s ease 0s; } 
+    
+
+div.check_box
+{ height:10px; width:10px; border:1px solid #C5C6CA;}
+
+    div.check_box:hover
+    { border:1px solid #919296; }    
+    
+    div.check_box.checked
+    { background: url(/_application/content/images/basic_imgs.png) no-repeat scroll -30px 0 #ffffff; }
+
+
+div.important
+{ height:10px; width:10px; background: url(/_application/content/images/basic_imgs.png) no-repeat scroll -40px 0;}
+
+    div.important:hover
+    { border:1px solid #919296; cursor:pointer; }    
+    
+    div.important.marked
+    { background: url(/_application/content/images/basic_imgs.png) no-repeat scroll -40px -10px; border:1px solid #cd2228; }
+
+    div.important.marked:hover
+    { border-radius:10px; }
+
+    
+div#process 
+{ background-color:#ffffff; padding:10px; z-index:100; }    
+
+    div#process a
+    { padding:5px 10px; margin:2px; border:1px solid #dddddd; color:#919296; position:relative; }
+    
+        div#process a:hover
+        { text-decoration: none; cursor:default; }
+
+        div#process a.current
+        { background-color:#919296; color:#ffffff; border:0; } 
+        
+        div#process a i
+        { width:10px; height:10px; position:absolute; top:8px; right:-10px; background: url(/_application/content/images/basic_imgs.png) no-repeat scroll -20px -10px; z-index:500; }     
+
+        
+a.status  
+{ height:10px; width:10px; border-radius:10px; display:block; }
+
+    a.status.pending 
+    { border:1px solid #919296; background-color:#eaeaea; }
+
+    a.status.paid
+    { border:1px solid #008f51; background-color:#00a65c; }
+
+    a.status.attention
+    { border:1px solid #b31b20; background-color:#cd2228; }     
+
+    
+div#black_window
+{ background-color:rgba(0,0,0,0.8); position:fixed; width:100%; z-index:1000; }     
+
+    div#black_window #window
+    {  margin:20px auto 120px auto; width:90%; z-index:1500; min-width:900px; }
+    
+        div#black_window #window div.row
+        { background-color:#ffffff;  padding:20px; margin-top:10px; border-radius:5px; }
+            
+                div#black_window #window div.row table tbody tr td img
+                { border: 1px solid #EAEAEA; height: 75px; margin: 0 10px 10px; width: 75px;} 
+                
+            div#black_window #window div.row h1
+            { font-size:14px; }    
+            
+            div#black_window #window div.row input
+            { padding:5px; margin:0; }
+            
+            div#black_window #window div.row select
+            { padding:5px; margin:0; height:30px; }
+            
+    div#black_window #popup
+    { width:450px; margin:50px auto 0 auto; background-color:#2198C0; color:#ffffff; padding:10px; border-radius:5px; }
+    
+        div#black_window #popup div#pop_body
+        { background-color:#ffffff; margin-top:10px; padding:10px; color:#282F39; font-size:14px; border-bottom:1px solid #eaeaea; }
+        
+        div#black_window #popup div#pop_buttons
+        { padding:10px; background-color:#fdfdfd; border-radius:0 0 5px 5px; }
+                
+            
+
+
+/* -------------------------------
+    links_
+--------------------------------- */
+
+a
+{ color:#003399; }
+
+a:hover
+{ text-decoration:underline; }
+
+
+a.link_button_block
+{ display:block; margin-top: 2px; font-size: 11px; color: #717171; text-align: center; padding: 2px 10px; background-color: #f9f9f9; border-radius:3px; }
+
+    a.link_button_block.blue
+    { background-color:#22acda; color:#fff; transition:background-color 0.2s ease 0s; }
+
+		a.link_button_block.blue:hover
+		{ background-color:#2198c0; color:#fff; text-decoration: none; }
+        
+    a.link_button_block.green
+    { background-color:#00a65c; color:#fff; transition:background-color 0.2s ease 0s; }
+
+        a.link_button_block.green:hover
+        { background-color:#008f51; color:#fff; text-decoration: none; }        
+
+    a.link_button_block.gray
+    { background-color:#e8e8e8; color:#919296; }
+
+		a.link_button_block.gray:hover
+		{ color: #56575b; background-color:#dddddd; text-decoration: none; }
+
+
+a.link_button_inline
+{ display:inline; font-size: 10px; text-align: center; padding: 5px 10px; border-radius: 3px;  }
+
+    a.link_button_inline.blue
+    { color: #fff; background-color:#22acda; border:1px solid #2198c0; transition:background-color 0.2s ease 0s; }
+		
+		a.link_button_inline.blue:hover
+		{ background-color:#007bbb; text-decoration:none;}
+        
+        a.link_button_inline.blue span.user_add
+        { float:left; height:15px; width:15px; background: url(/_application/content/images/basic_imgs.png) no-repeat scroll 0 -20px; margin:4px 5px 0 0; }
+        
+        a.link_button_inline.blue span.add
+        { float:left; height:10px; width:10px; background: url(/_application/content/images/basic_imgs.png) no-repeat scroll -50px -10px; margin:7px 5px 0 0; }
+        
+    a.link_button_inline.red
+    { color: #fff; background-color:#cd2228; border:1px solid #b31b20; transition:background-color 0.2s ease 0s; }
+        
+        a.link_button_inline.red:hover
+        { background-color:#b31b20; text-decoration:none;}
+        
+        a.link_button_inline.red span.remove
+        { float:left; height:10px; width:10px; background: url(/_application/content/images/basic_imgs.png) no-repeat scroll -80px -10px; margin:8px 10px 0 0; }
+        
+    a.link_button_inline.green
+    { color: #fff; background-color:#00a65c; border:1px solid #008f51; transition:background-color 0.2s ease 0s; }
+        
+        a.link_button_inline.green:hover
+        { background-color:#008f51; text-decoration:none;}        
+        
+    a.link_button_inline.gray
+    { color: #919296; background-color:#f5f5f5; border:1px solid #C5C6CA; transition:background-color 0.2s ease 0s; }
+        
+        a.link_button_inline.gray:hover
+        { color: #56575b; background-color:#dddddd; text-decoration:none;}    
+
+
+    
+table thead
+{ background:rgba(0, 0, 0, 0) linear-gradient(to bottom, #4f84af 0%, #2d5788 100%) repeat scroll 0 0;; color:#ffffff; }
+
+    table tbody tr:hover
+    { background-color:#F8F9FD; }   
+    
+    table tr td
+    { border-bottom:1px solid #eaeaea; } 
+
+    table tr.selected   
+    { background-color:#FFFFCC !important; }
+    
+        table tr.selected:hover 
+        { background-color:#FFFFCC; }        
+        
+        
+a.status  
+{ height:10px; width:10px; border-radius:10px; display:block; }
+
+    a.status.pending 
+    { border:1px solid #919296; background-color:#eaeaea; }
+
+    a.status.paid
+    { border:1px solid #008f51; background-color:#00a65c; }
+
+    a.status.attention
+    { border:1px solid #b31b20; background-color:#cd2228; }     
+
+    
+div#black_window
+{ background-color:rgba(0,0,0,0.8); position:fixed; width:100%; z-index:1000; }     
+
+    div#black_window #window
+    {  margin:20px auto 120px auto; width:90%; z-index:1500; min-width:900px; }
+    
+        div#black_window #window div.row
+        { background-color:#ffffff;  padding:20px; margin-top:10px; border-radius:5px; }
+            
+                div#black_window #window div.row table tbody tr td img
+                { border: 1px solid #EAEAEA; height: 75px; margin: 0 10px 10px; width: 75px;} 
+                
+            div#black_window #window div.row h1
+            { font-size:14px; }    
+            
+            div#black_window #window div.row input
+            { padding:5px; margin:0; }
+            
+            div#black_window #window div.row select
+            { padding:5px; margin:0; height:30px; }
+            
+    div#black_window #popup
+    { width:450px; margin:50px auto 0 auto; background-color:#2198C0; color:#ffffff; padding:10px; border-radius:5px; }
+    
+        div#black_window #popup div#pop_body
+        { background-color:#ffffff; margin-top:10px; padding:10px; color:#282F39; font-size:14px; border-bottom:1px solid #eaeaea; }
+        
+        div#black_window #popup div#pop_buttons
+        { padding:10px; background-color:#fdfdfd; border-radius:0 0 5px 5px; }
+                
+
+                
+/****************************************
+ was removed and for implementation soon
+*****************************************/
+.drop_menu_body                 
+{ background-color: #22acda; position:absolute; max-height: 200px; max-width: 95%; min-width:80%; top:40px; right:0; opacity:0.85; border-radius:5px; }  
+               
+    .drop_menu_body .drop_menu        
+    { background-color: #ffffff; margin:10px; max-height: 180px; overflow-y:scroll; }       
+    
+        .drop_menu_body .drop_menu a
+        { padding: 10px; border-bottom: 1px solid #888888; display:block;} 
+        
+        .drop_menu_body .drop_menu a:hover
+        { background-color:#003399; color:#ffffff; text-decoration: none;}
+        
+        
+/*********************************************
+this is for grouped drop down menus        
+**********************************************/
+div.combo_drop
+{ width:100%; }
+
+div.combo_drop span.drop_set
+{ border:1px solid #eaeaea; border-radius:5px; padding:5px; margin:5px; }
+
+    div.combo_drop span.drop_set:hover
+    { background-color:#D8DFEA;}
+
+div.combo_drop span.drop_set b
+{}
+      
+div.combo_drop span.drop_set select
+{}          
+                
+                
+                
+#content_body div#side_listings div#user_systems
+{ padding:30px; margin:0 auto; text-align: center;}            
+
+    #content_body div#side_listings div#user_systems a.sys_button
+    { border:1px solid #eaeaea; border-radius:10px; padding:10px 14px 5px 14px; margin:5px; width:170px; line-height: 14px; }
+    
+    #content_body div#side_listings div#user_systems a.sys_button:hover
+    { text-decoration: none; border:1px solid #003399; }
+    
+    
+        #content_body div#side_listings div#user_systems span.sys_icon
+        { height:100px; width:100px; display:block; background-color:gray; margin:0 auto 5px auto; }                
+        
+        
+/*********************************************
+Tooltip     
+**********************************************/
+div.tooltip
+{color:#282f39; display:inline-block; position:relative;}
+
+    div.tooltip span.tool_body
+    {background-color:rgba(200,200,200,1) ; padding:0 5px; border:1px solid #a0a0a0; border-radius:2px;}
+
+    div.tooltip span.tooltiptext
+    {visibility:hidden; opacity:0; transition:opacity 1s ease 0s; width:120px; background-color: black; color:white; text-align:center; padding:5px 0; border-radius:5px; position:absolute; top:100%; left:50%; margin-left:-60px; z-index:1;}
+    
+    div.tooltip:hover span.tooltiptext
+    {visibility:visible; opacity:1;}
+    
+    div.tooltip span.tooltiptext::after
+    {content:""; position:absolute; bottom:100%; left:50%; margin-left:-5px; border-width: 5px; border-style:solid; border-color: transparent transparent black transparent; }

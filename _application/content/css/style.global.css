@@ -1,0 +1,319 @@
+/* GLOBAL CSS by DLSMIZEL 2014 */
+
+div, p
+{ display:block; position: relative; margin: 0px; padding: 0px; }
+
+h1,h2,h3,h4,h5,h6
+{ display:block; margin: 0px; padding:0px; font-size: 12px; }
+
+label
+{ display:block; width:100%; height:0px; overflow:hidden; float:none; clear:both; }
+
+a, button
+{ cursor:pointer; text-decoration: none; outline:0; }
+
+a:hover
+{ text-decoration: underline; }
+
+.bg_fff
+{ background-color: #fff; }
+
+.bg_gray
+{ background-color:#eaeaea; }
+
+.bold
+{ font-weight: bold; }
+
+.current
+{ color: #CC1F01; }
+
+.current_bold
+{ color: #CC1F01; font-weight:bold; }
+
+
+::-moz-selection{ background: #003399; color:#fff; text-shadow: none; }
+::selection{ background: #003399; color:#fff; text-shadow: none; }
+
+/*
+|-------------------------------------------------------------------------------------
+|    blocks_
+|-------------------------------------------------------------------------------------
+*/
+
+div.content_block h1.heading, div.content_block_vpad h1.heading
+{ float: left; font-size: 15px; color: #D41F01}
+
+div.content_block h2.heading, div.content_block_vpad h2.heading
+{ float: left; font-size: 13px; color: #D41F01; font-weight: normal;}
+
+div.content_block a.link_head_right, div.content_block_vpad a.link_head_right
+{ float: right; margin-top: 2px; font-size: 12px; margin-left: 20px; }
+
+div.content_block a.link_head_left, div.content_block_vpad a.link_head_left
+{ float: left; margin-top: 2px; font-size: 12px; margin-right: 20px; }
+
+div.content_block
+{ width:100% }
+
+div.content_block_vpad
+{ width: 100%;  padding-top: 10px; padding-bottom: 10px; }
+
+div.content_block_vpad_min
+{ width: 100%; }
+
+div.content_block_top
+{ width: 100%; padding-top: 12px;}
+
+div.content_block_br
+{ width: 100%; padding-bottom: 12px;}
+
+div.content_overflow /* must set inline dimension (wxh) */
+{ display: inline; float: left; overflow: auto; padding: 10px; }
+
+div.content_overflow_label /* must set inline dimension (wxh) */
+{ padding: 10px; }
+
+div.content_separator
+{ width: 100%; height: 1px; overflow: hidden; background-color: #eaeaea; clear: both; }
+
+div.content_separator_fff
+{ width: 100%; height: 1px; overflow: hidden; background-color: #fff; clear: both; }
+
+div.content_spacer
+{ width: 100%; height: 10px; overflow: hidden; clear: both; }
+
+/*
+|-------------------------------------------------------------------------------------
+|    font colors_         ---use these for text colors
+|-------------------------------------------------------------------------------------
+*/
+
+.color_standard
+{ color: #282f39; }
+
+.color_white
+{ color:#ffffff; }
+
+.color_gray
+{ color:#8D8D8E; }
+
+.color_red
+{ color:#cd2228; }
+
+.color_green
+{ color:#00a65c; }
+
+.color_blue
+{ color:#22acda; }
+
+.color_yellow
+{ color:#ffdb32; }
+
+
+.error
+{ color: red !important; border:1px solid red !important;}
+/*
+|-------------------------------------------------------------------------------------
+|    font sizes
+|-------------------------------------------------------------------------------------
+*/
+
+.font_size_10
+{ font-size: 10px !important;}
+
+.font_size_12
+{ font-size: 12px !important;}
+
+.font_size_14
+{ font-size: 14px !important;}
+
+.font_size_18
+{ font-size: 18px !important;}
+
+.font_size_24
+{ font-size: 24px !important;}
+
+span.span_indent
+{ text-indent: 15px !important; display: block; }
+
+/*
+|-------------------------------------------------------------------------------------
+|    position_
+|-------------------------------------------------------------------------------------
+*/
+
+.position_absolute
+{ position: absolute !important; }
+
+.position_relative
+{ position: relative !important; }
+
+.position_fixed
+{ position: fixed !important; }
+
+
+/*
+|-------------------------------------------------------------------------------------
+|    margin_
+|-------------------------------------------------------------------------------------
+*/
+
+.mar_custom
+{ margin:0 auto;}
+
+.mar_standard
+{ margin:10px; }
+
+.mar_h
+{ margin-left: 10px; margin-right: 10px; }
+
+.mar_v
+{ margin-top: 10px; margin-bottom: 10px; }
+
+
+/*
+|-------------------------------------------------------------------------------------
+|    padding_
+|-------------------------------------------------------------------------------------
+*/
+
+.pad_custom
+{ padding:0; }
+
+.pad_standard
+{ padding:10px; }
+
+.pad_x
+{ padding-left: 10px; padding-right: 10px; margin-left: auto; margin-right: auto; }
+
+.pad_v
+{ padding-top: 10px; padding-bottom: 10px; }
+
+
+/*
+|-------------------------------------------------------------------------------------
+|    float_
+|-------------------------------------------------------------------------------------
+*/
+
+.float_left
+{ display: inline !important; position: relative !important; float: left !important; }
+
+.float_right
+{ display: inline !important; position: relative !important; float: right !important; }
+
+.float_right_block
+{ display: block; position: relative; float: right; }
+
+/*
+|-------------------------------------------------------------------------------------
+|    align_
+|-------------------------------------------------------------------------------------
+*/
+
+.align_right
+{ text-align: right !important; }
+
+.align_left
+{ text-align: left !important; }
+
+.align_center
+{ text-align: center !important; }
+
+/*
+|-------------------------------------------------------------------------------------
+|    border_
+|-------------------------------------------------------------------------------------
+*/
+
+.border_box {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+.border_white
+{ border: 1px solid #fff !important;  }
+
+.border_black
+{ border: 1px solid #000 !important; }
+
+.border_radius
+{  border-radius:5px; }
+
+.border_radius_top
+{  border-radius:8px 8px 0 0; }
+
+.border_gray
+{ border:1px #eaeaea solid; }
+
+.border_gray_dashed
+{ border:1px #eaeaea dashed; }
+
+.border_gray_v_dashed
+{ border-top:1px #eaeaea dashed; border-bottom:1px #eaeaea dashed; }
+
+.border_gray_top_dashed
+{ border-top:1px #eaeaea dashed; }
+
+.border_blue
+{ border:1px #1369A6 solid; }
+
+.border_left_gray
+{ border-left:1px #eaeaea solid; }
+
+.border_right_gray
+{ border-right:1px #eaeaea solid; }
+
+.border_x_gray
+{ border-left:1px #eaeaea solid; border-right:1px #eaeaea solid; }
+
+.border_top_gray
+{ border-top:1px #eaeaea solid; }
+
+.border_bottom_gray
+{ border-bottom:1px #eaeaea solid; }
+
+.border_error
+{ border:1px solid red !important; }
+
+/*
+|-------------------------------------------------------------------------------------
+|    display_
+|-------------------------------------------------------------------------------------
+*/
+
+.display_none
+{ display: none !important; }
+
+.display_block
+{ display: block !important; }
+
+.display_inline
+{ display: inline !important; }
+
+/*
+|-------------------------------------------------------------------------------------
+|    Width
+|-------------------------------------------------------------------------------------
+*/
+
+.width_25
+{ width: 25% !important; }
+
+.width_half
+{ width: 50% !important; }
+
+
+/*
+|-------------------------------------------------------------------------------------
+|    icons_controls
+|-------------------------------------------------------------------------------------
+*/
+div.icon_controls a
+{ width:30px; height:30px; border:1px solid #C5C6CA; border-radius:2px; background-color:#F8F9FD; display:inline-block; float:left; }
+
+    div.icon_controls a.next
+    { background: url(/_application/content/images/icons_controls.png) no-repeat scroll -120px 0 #F8F9FD; }
+    
+    div.icon_controls a.prev
+    { background: url(/_application/content/images/icons_controls.png) no-repeat scroll -90px 0 #F8F9FD; }
+    
+    div.icon_controls a:hover
+    { border:1px solid #919296; text-decoration: none; }

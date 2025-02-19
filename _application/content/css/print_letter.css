@@ -1,0 +1,35 @@
+body
+{ font-size:11pt; line-height:1.5; }
+
+#content
+{ width: 8.5in; height:11in; margin:0 auto 40px auto; padding:40px 80px 80px 50px; background-color:#ffffff; border:1px solid #dddddd; transition: all 0.2s ease 0s; }
+
+#content_half
+{ width: 8.5in; height:5.5in; margin:0 auto 40px auto; padding:40px 80px 80px 50px; background-color:#ffffff; border:1px solid #dddddd; transition: all 0.2s ease 0s; }
+
+div#document
+{ text-align:center; font-weight: bold; margin:60px 0 30px 0; }
+
+  
+
+@page
+{ margin:0.8cm 1.5cm 1.8cm 1cm; size:Letter portrait; padding:0; }
+   
+
+@media print 
+{
+    .display_none 
+    { display: none; }
+    
+    #content
+    { padding:0 !important; margin:0; border:0; width:100%; }
+    
+    label#top_pad
+    { display:none; }
+    
+    a[href]:after { content: none !important; }
+    
+    b { color:#000000; text-decoration: none; }
+    
+    body {-webkit-print-color-adjust: exact;}
+}
