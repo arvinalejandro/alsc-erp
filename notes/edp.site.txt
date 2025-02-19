@@ -1,0 +1,194 @@
+EDP Site Management System
+
+	User Admin
+		
+		- User modification (Add/edit/delete)
+		- User priviledges/access
+		- User activities (Logs)
+		
+	
+	System Variables
+	
+		- Billing Types
+			- Monthly Amortization
+			- Amendments
+			- Restruction
+			- House ID
+			- Miscelenous (Pools, clubhouse, permit, pest control Security)
+		
+		- Charges 		
+			- Surcharge
+			- Taxation
+			- Interest
+						
+			
+EDP Inventory Management System
+
+	Project Manager
+		- Project is the subdivision. 
+		- Must have the ability to create/modify/add children (site) for each project
+		- Must have the ability to create/modify/add children (House Model)
+			
+	Site Manager
+		- Site is the "subdivision within a subdivision". Termed as pocket village
+		- Must have the ability to crete/modify/add children (block)
+		
+	Block Manager
+		- Block is the partition/group of lot.
+		- (Identify the details per lot like pricing, specifications etc.)
+		
+	House Model Manager
+		- House model is the house template with fixed parameters and separate pricing.
+		- House models are specific per Project
+		
+	
+	* Identify/Finalize the workflow between the engineering and inventory
+	
+		
+EDP Client Management
+
+	- Ability to create/modify clients following the standard workflow
+	
+		1. Agent (Must identify the agent types i.e external, internal etc.)
+			- Qualified agents must fill in the CLOSED SALES REPORT together with the payment					
+		2. Cashier
+			- The cashier gets the CSR, verifies the payment			
+		3. EDP creates the client	
+		
+	* (Finalize the workflow (proposed/existing))
+			
+	
+
+	
+Cashier
+
+	Dashboard
+	
+		- Displays daily stats
+		- Displays most commonly used links/actions
+		
+	Invoice Manager / Payment History
+	
+		- Displays the recent payments
+		- Displays the daily dues (Monthly Amortization)
+		
+	Payment Recording
+	
+		- Searches the client using the specified details
+		- Make payment following the workflow
+		- (Identify the proper payment workflow)
+		
+	Reporting Tool
+	
+		- Generate daily collected payments/invoice
+		- Ability to print in accordance to their format
+		- Have the option to generate previous collection summary
+		
+	Internal Messaging
+	
+		- Ability to send/receive message within the alsc system
+		
+	* To ask
+	
+		1. Payment Workflow		
+			- Identify the different scenario
+			- Identify the mandary Hard Documents to provide/receive
+			- Identify the terminologies
+			
+
+
+Why customized instead of Hosted?
+
+	- Mickey do your thang...
+			
+
+E-commerce Web Proposal
+
+	Proposed Price : 375,000
+	Estimated Time of Completion : 60 days
+	
+	Web Design		
+		
+		- We will provide iterations of design proposals
+		- We will also provide user experience (UIUX) proposals
+	
+	Ecommerce Website
+	
+		- Product Display
+		- Product Search				
+		- Shopping Cart
+		- Online payment (Paypal)
+		- Online Inquiry (Contact Us / Per product comment)		
+		- Users can FB share your product
+		- User Registration
+		- Google Analytics Integration
+		- Basic Search Engine Optimization (Sitemap / Link Building)
+			
+	Content Management System
+	
+		- Content Modification
+		- Order Management 
+		- Inquiry Management
+		- Product Management
+		
+	Additionals
+	
+		- Publish Blogs
+		- Publish Make-up Classes/Trainings
+		- User/Guest has the ablity to comment/inquire on any blog/training
+
+		
+		
+Portfolio
+
+	http://www.jobcentral.com.ph
+	http://www.google.com/wallet/
+	http://wpmdigital.com.au/
+	http://www.achievementfirst.org/
+	http://www.firstplaceinc.org/
+	
+	(Mickey paki dag-dag yung inyo. thanks)
+	
+		
+
+	
+	
+	
+	
+Addons
+
+	Facebook API Integration
+	Tweeter API Integration
+	Blog Casting | User can comment via Facebook
+
+
+		
+Grande Royale
+	
+	- Barbara
+	- Casa Ana
+	- Casa Angela
+	- Classification - two story / Bungalow / Lot Only
+		
+Casa Amanda
+Dream Crest Homes
+
+
+
+
+Added Cost = 1,000,000.00
+TCP = 10,000,000.00
+
+
+TCP = (LCP) + (HCP + (AC1 + ACn.... ))
+
+
+Options - (Hold, earnest, set-as package, reserve lot)
+
+
+since no more phase/project site separate module, we can no longer set specific settings per phase
+
+
+
+
+

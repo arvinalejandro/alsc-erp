@@ -1,0 +1,31 @@
+Lot / Package code breakdown. Discuss further
+Availability vs Unit Status
+Describe each entry of Unit Status
+Reservation Only - for account creation automatically?
+Project Status - pre developed/Developer : this is per project? not project site?
+Explain each entry of Buyer Type
+Pre amortization agreement (during dp payment terms)
+Client Account Entries
+Transactions vs Investment
+Transaction type process
+DP terms payment
+
+
+
+July 23
+
+- should we not include Sold lots in the start of client creation (preference)
+
+- Should we consider water bill and electricity sub accounts
+- Lot client history  
+- Restructure Procedure work-flow
+- Finalize/Clarify system handling of secondary client (under primary client)
+- TO put in the documents page (are these fixed? and edp or billing handles the changes)
+- Retention work-flow
+- Explain the two payment types
+- work-flow in changing the account status
+- house&lot / package reversal procedure
+- work-flow change of due date
+- package history? and client history per lot?
+- to be uploaded to jobcentral domain for online checking
+
